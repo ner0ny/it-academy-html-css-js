@@ -1,0 +1,117 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>poker2</title>
+    <style>
+      body {
+        background-color: cyan;
+      }
+      .main {
+        background-color: white;
+      }
+      .main__frame-top {
+        background: url("top.png") 0 0 repeat-x;
+      }
+      .main__frame-left {
+        background: url("left.png") 0 0 repeat-y;
+      }
+      .main__frame-top--left {
+        background: url("top-left.png") 0 0 no-repeat;
+      }
+      .main__frame-right {
+        background: url("right.png") 100% 0 repeat-y;
+      }
+      .main__frame-top--right {
+        background: url("top-right.png") 100% 0 no-repeat;
+      }
+      .main__frame-bottom {
+        background: url("bottom.png") 0 100% repeat-x;
+      }
+      .main__frame-bottom--left {
+        background: url("bottom-left.png") 0 100% no-repeat;
+      }
+      .main__frame-bottom-right {
+        background: url("bottom-right.png") 100% 100% no-repeat;
+      }
+      .content {
+        padding: 50px;
+      }
+      .cards {
+        border: 1px solid green;
+        padding: 20px;
+      }
+      .card {
+        height: 190px;
+        width: 140px;
+        display: inline-block;
+      }
+      .card:nth-child(1) {
+        background: url("cards.png") 0 -2330px no-repeat;
+      }
+      .card:nth-child(2) {
+        background: url("cards.png") -145px -2135px no-repeat;
+      }
+      .card:nth-child(3) {
+        background: url("cards.png") -290px -1942px no-repeat;
+      }
+      .card:nth-child(4) {
+        background: url("cards.png") -432px -1748px no-repeat;
+      }
+      .card:nth-child(5) {
+        background: url("cards.png") -145px -1555px no-repeat;
+      }
+    </style>
+  </head>
+  <body>
+    <div class="main">
+      <div class="main__frame-top">
+        <div class="main__frame-left">
+          <div class="main__frame-top--left">
+            <div class="main__frame-right">
+              <div class="main__frame-top--right">
+                <div class="main__frame-bottom">
+                  <div class="main__frame-bottom--left">
+                    <div class="main__frame-bottom-right">
+                      <div class="content">
+                        <h1>Покер</h1>
+                        <p>
+                          <strong>По́кер</strong> (англ. poker) — карточная игра,
+                          цель которой — выиграть ставки, собрав как можно более
+                          высокую покерную комбинацию, используя 4 (старый
+                          классический вариант), или 5 карт, или вынудив всех
+                          соперников прекратить участвовать в игре. Игра идёт с
+                          полностью или частично закрытыми картами. Конкретные
+                          правила могут варьироваться в зависимости от
+                          разновидности покера. Обобщающими элементами всех
+                          разновидностей покера являются комбинации и наличие
+                          торговли в процессе игры.
+                        </p>
+                        <p>
+                          Ввиду того, что игрок не знает карты своих
+                          противников, покер является игрой с неполной
+                          информацией, как и многие другие карточные игры, в
+                          отличие от, например, шахмат, в которых оба игрока
+                          видят положение всех фигур на доске.
+                        </p>
+                        <h2>Комбинация в покере — стрит</h2>
+                        <div class="cards">
+                          <div class="card"></div>
+                          <div class="card"></div>
+                          <div class="card"></div>
+                          <div class="card"></div>
+                          <div class="card"></div>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </body>
+</html>

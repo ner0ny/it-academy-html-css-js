@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>first-layout-div</title>
+    <style>
+      .header,
+      .footer {
+        background: #add8e6;
+        color: #0000ff;
+        text-align: center;
+        text-transform: uppercase;
+        padding: 2px 0;
+        font-weight: bold;
+      }
+      .main {
+        background: #f0e68c;
+      }
+      .main__left {
+        float: left;
+        background: #f0e68c;
+        padding: 30px 0 0 30px;
+        width: 250px;
+      }
+      .main__right {
+        margin-left: 280px;
+        padding: 8px 0 0 15px;
+        background: #ffffff url("ball.jpg") right/ auto repeat-y;
+      }
+      .right__title {
+        text-align: center;
+      }
+      .right__image {
+        float: left;
+        padding: 0 10px 10px 0;
+      }
+      .clearfix {
+        clear: both;
+      }
+      p {
+        font-size: 21px;
+      }
+    </style>
+  </head>
+  <body>
+    <header class="header">
+      <h2>Привет участникам соревнований!</h2>
+    </header>
+    <div class="main">
+      <div class="main__left">
+        <h2>Виды спорта:</h2>
+        <ul>
+          <li><a href="https://t.me/ner0ny">конькобежный спорт</a></li>
+          <li><a href="https://t.me/ner0ny">биатлон</a></li>
+          <li><a href="https://t.me/ner0ny">футбол</a></li>
+          <li><a href="https://t.me/ner0ny">стрельба из лука</a></li>
+          <li><a href="https://t.me/ner0ny">прыжки в длину</a></li>
+          <li><a href="https://t.me/ner0ny">прыжки в сторону</a></li>
+        </ul>
+      </div>
+      <div class="main__right">
+        <h1 class="right__title">ФУТБОЛ</h1>
+        <img src="football.png" alt="" class="right__image" />
+        <div class="right__text">
+          <p>
+            Футбол - командный вид спорта, в котором целью является забить мяч в
+            ворота соперника ногами или другими частями тела (кроме рук) большее
+            количество раз, чем команда соперника.
+          </p>
+          <p>
+            Есть 17 официальных правил игры, каждое из которых содержит список
+            оговорок и руководящих принципов. Это правила предназначены для
+            применения для таких групп, как юниоры, взрослые, женщины и люди с
+            ограниченными физическими возможностями. Законы очень часто
+            формулировались в общих чертах, которые позволяют упростить их
+            применения в зависимости от характера игры.
+          </p>
+        </div>
+        <div class="clearfix"></div>
+      </div>
+    </div>
+    <footer class="footer">
+      <h2>Главное не победа, а участие!</h2>
+    </footer>
+  </body>
+</html>

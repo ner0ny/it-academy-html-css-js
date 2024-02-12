@@ -1,0 +1,238 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>adaptive-layout-flex</title>
+    <style>
+      * {
+        padding: 0;
+        margin: 0;
+      }
+      body {
+        font-size: 20px;
+        font-weight: bold;
+      }
+      .container {
+        max-width: 1520px;
+        margin: 0 auto;
+      }
+      .header__container {
+        display: flex;
+        background-color: #00bfff;
+        justify-content: space-between;
+        align-items: center;
+      }
+      .menu__logo {
+        background-color: #808080;
+        padding: 20px 60px;
+        color: #fff;
+      }
+      .menu__list {
+        display: flex;
+        list-style-type: none;
+      }
+      .menu__list li {
+        margin: 0 40px 0 0;
+      }
+      .menu__link {
+        text-decoration: none;
+        color: #fff;
+      }
+      .menu__link:hover {
+        background-color: lightpink;
+      }
+      .main__container {
+        display: flex;
+      }
+      .main__left {
+        background-color: #ffd700;
+      }
+      .main__left,
+      .main__right {
+        flex: 2 2 auto;
+        padding: 10px 0 0 0;
+        text-align: center;
+      }
+      .main__center {
+        background-color: #00ffff;
+        flex: 2 2 500px;
+        padding: 30px 10px;
+      }
+      .main__right {
+        background-color: #ff69b4;
+      }
+      .footer__container {
+        background-color: #90ee90;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+      }
+      .footer__address {
+        padding: 0 0 0 20px;
+      }
+      .footer__menu-list {
+        display: flex;
+        list-style-type: none;
+      }
+      .footer__menu-list li {
+        margin: 0 20px 0 0;
+      }
+      .footer__menu-link {
+        text-decoration: none;
+        color: #fff;
+      }
+      @media (max-width: 768px) {
+        .header__container {
+          display: block;
+        }
+        .menu__logo {
+          width: 50px;
+          margin: 0 auto;
+          text-align: center;
+        }
+        .menu__list {
+          justify-content: space-around;
+          margin: 0;
+          padding: 20px 0;
+        }
+        .menu__list li {
+          margin: 0;
+        }
+        .menu__link {
+          margin: 0;
+        }
+        .main__container {
+          flex-wrap: wrap;
+        }
+        .main__left {
+          order: 2;
+        }
+        .main__left,
+        .main__right {
+          width: 50%;
+          padding-bottom: 10px;
+        }
+        .main__right {
+          order: 3;
+        }
+        .footer__container {
+          display: block;
+        }
+        .footer__address {
+          padding: 20px 0 0 0;
+          margin: 0 auto;
+          width: 170px;
+          text-align: center;
+        }
+        .footer__menu-list {
+          justify-content: space-around;
+          padding: 20px 0;
+        }
+        .footer__menu-list li {
+          margin: 0;
+        }
+      }
+      @media (max-width: 480px) {
+        .menu__list {
+          padding: 0;
+          flex-direction: column;
+        }
+        .menu__list li {
+          border: 1px solid rgba(255, 255, 255, 0.24);
+          text-align: center;
+          padding: 10px 0;
+        }
+        .main__left,
+        .main__right {
+          padding-bottom: 20px;
+        }
+        .footer__address {
+          padding: 20px 0 20px 0;
+        }
+        .footer__menu-list {
+          padding: 0;
+          flex-direction: column;
+        }
+        .footer__menu-list li {
+          text-align: center;
+          padding: 10px 0;
+          border: 1px solid rgba(255, 255, 255, 0.24);
+        }
+      }
+    </style>
+  </head>
+  <body>
+    <header class="header">
+      <div class="header__container container">
+        <div class="menu__logo">Logo</div>
+        <div class="header__menu">
+          <ul class="menu__list">
+            <li>
+              <a class="menu__link" href="https://t.me/ner0ny">Главная</a>
+            </li>
+            <li>
+              <a class="menu__link" href="https://t.me/ner0ny">О нас</a>
+            </li>
+            <li>
+              <a class="menu__link" href="https://t.me/ner0ny">Продукты</a>
+            </li>
+            <li>
+              <a class="menu__link" href="https://t.me/ner0ny">Контакты</a>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </header>
+    <main class="main">
+      <div class="main__container container">
+        <aside class="main__left">Aside type 1</aside>
+        <main class="main__center">
+          <h1>What is Lorem ipsum?</h1>
+          <p>
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Ut magnam a
+            perferendis sequi animi deleniti. Voluptas distinctio autem
+            accusantium dolor tempore velit voluptatum vitae voluptate itaque
+            aliquid sed necessitatibus, quisquam error libero animi non quam
+            quaerat, enim dolorem cumque similique vel? Cumque accusantium vero
+            libero voluptatem! Magnam expedita debitis nostrum.
+          </p>
+          <h2>Why do we use it?</h2>
+          <p>
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolorum
+            temporibus corrupti recusandae blanditiis odio, quisquam voluptate.
+            Incidunt ut facere at blanditiis, odio vel repudiandae voluptates
+            asperiores fugit recusandae! Dicta, laborum. Lorem ipsum dolor sit
+            amet consectetur adipisicing elit. Dolorum temporibus corrupti
+            recusandae blanditiis odio, quisquam voluptate.
+          </p>
+        </main>
+        <aside class="main__right">Aside type 2</aside>
+      </div>
+    </main>
+    <footer class="footer">
+      <div class="footer__container container">
+        <address class="footer__address">&#169; Copyright 2017</address>
+        <div class="footer__menu">
+          <ul class="footer__menu-list">
+            <li>
+              <a class="footer__menu-link" href="https://t.me/ner0ny"
+                >Twitter</a
+              >
+            </li>
+            <li>
+              <a class="footer__menu-link" href="https://t.me/ner0ny"
+                >Vkontakte</a
+              >
+            </li>
+            <li>
+              <a class="footer__menu-link" href="https://t.me/ner0ny"
+                >Facebook</a
+              >
+            </li>
+          </ul>
+        </div>
+      </div>
+    </footer>
+  </body>
+</html>

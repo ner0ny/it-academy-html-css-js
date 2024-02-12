@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>calculator</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <div class="calc">
+      <div class="calc__top">
+        <button onclick="del()" class="calc__clear">C</button>
+        <input readonly type="text" id="input" class="calc__result" />
+      </div>
+      <div class="calc__buttons">
+        <button onclick="seven()" class="calc__button gray">7</button>
+        <button onclick="eight()" class="calc__button gray">8</button>
+        <button onclick="nine()" class="calc__button gray">9</button>
+        <button onclick="divide()" class="calc__button orange">/</button>
+        <button onclick="four()" class="calc__button gray">4</button>
+        <button onclick="five()" class="calc__button gray">5</button>
+        <button onclick="six()" class="calc__button gray">6</button>
+        <button onclick="multiply()" class="calc__button orange">x</button>
+        <button onclick="one()" class="calc__button gray">1</button>
+        <button onclick="two()" class="calc__button gray">2</button>
+        <button onclick="thre()" class="calc__button gray">3</button>
+        <button onclick="minus()" class="calc__button orange">-</button>
+        <button onclick="zero()" class="calc__button gray">0</button>
+        <button onclick="dott()" class="calc__button gray">.</button>
+        <button onclick="equals()" class="calc__button gray">=</button>
+        <button onclick="plus()" class="calc__button orange">+</button>
+      </div>
+    </div>
+    <script src="script.js"></script>
+  </body>
+</html>

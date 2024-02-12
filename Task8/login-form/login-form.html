@@ -1,0 +1,194 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>login-form</title>
+    <style>
+      body {
+        background: url("bc.jpg") 0 0 / cover repeat;
+        font-family: "Open Sans", sans-serif;
+      }
+      .authorization__page {
+        margin: 100px auto 0;
+        background-color: #fff;
+        width: 600px;
+        padding: 0 0 20px 0;
+        position: relative;
+      }
+      .authorization__page:before,
+      .authorization__page:after {
+        content: "";
+        position: absolute;
+        top: 4px;
+        width: 50%;
+        height: 100%;
+        z-index: -1;
+        background: linear-gradient(to bottom, transparent, #000);
+        filter: blur(3px);
+        opacity: 0.4;
+      }
+      .authorization__page:before {
+        left: 0;
+        transform: skewY(-2deg);
+      }
+      .authorization__page:after {
+        right: 0;
+        transform: skewY(2deg);
+      }
+      .authorization__scotch {
+        content: "";
+        border-bottom: 30px solid black;
+        width: 500px;
+        top: -15px;
+        left: 50px;
+        position: absolute;
+        opacity: 0.1;
+      }
+      .authorization__title {
+        text-transform: uppercase;
+        text-align: center;
+        padding: 30px 0 20px 0;
+        letter-spacing: 2px;
+        position: relative;
+        color: dimgray;
+      }
+      .authorization__title:before {
+        content: "";
+        border-bottom: 2px solid dimgray;
+        width: 50px;
+        top: 45px;
+        left: 120px;
+        position: absolute;
+      }
+      .authorization__title:after {
+        content: "";
+        border-bottom: 2px solid dimgray;
+        width: 50px;
+        top: 47px;
+        right: 120px;
+        position: absolute;
+      }
+      fieldset {
+        width: 500px;
+        border: none;
+        padding: 20px 0 0 40px;
+      }
+      .authorization__form-group {
+        margin: 0 20px 20px 20px;
+        background-color: #ff7e68;
+        border-radius: 15px;
+      }
+      .authorization__form-group-text {
+        padding: 0 0 10px 30px;
+        color: dimgray;
+        text-align: center;
+      }
+      input {
+        font-size: 20px;
+      }
+      input[type="text"] {
+        background-color: #ffd5ce;
+        border: 1px solid #ff7e68;
+        padding: 15px 10px 10px 15px;
+        width: 400px;
+        border-radius: 10px 10px 0 0;
+        margin: 0 0 3px 0;
+      }
+      input[type="password"] {
+        background-color: #ffd5ce;
+        border: 1px solid #ff7e68;
+        padding: 15px 10px 10px 15px;
+        width: 400px;
+        border-radius: 0 0 10px 10px;
+      }
+      input:focus {
+        outline: 1px solid red;
+        background-color: #fff;
+      }
+      input:focus::-webkit-input-placeholder {
+        opacity: 0;
+      }
+      .authorization__form {
+        position: relative;
+      }
+      .authorization__button {
+        width: 80px;
+        height: 80px;
+        border-radius: 50%;
+        border: 10px solid #ff7e68;
+        background-color: #ff5335;
+        position: absolute;
+        display: inline-block;
+        line-height: 1;
+        cursor: pointer;
+        top: -90px;
+        left: 390px;
+      }
+      .authorization__button:focus {
+        background-color: yellow;
+      }
+      .authorization__button:active {
+        background-color: greenyellow;
+      }
+      .authorization__button:after {
+        content: "";
+        position: absolute;
+        top: 25px;
+        left: 30px;
+        width: 0;
+        height: 0;
+        border-top: 5px solid transparent;
+        border-bottom: 6px solid transparent;
+        border-left: 10px solid white;
+      }
+      .authorization__button:before {
+        content: "";
+        position: absolute;
+        top: 26px;
+        left: 15px;
+        width: 20px;
+        height: 3px;
+        border-bottom: 3px solid white;
+      }
+    </style>
+  </head>
+  <body>
+    <div class="authorization">
+      <div class="authorization__page">
+        <div class="authorization__scotch"></div>
+        <h2 class="authorization__title">Авторизуйтесь</h2>
+        <div class="authorization__form-group">
+          <fieldset>
+            <div class="authorization__form">
+              <div>
+                <input id="text" name="text" placeholder="Логин" type="text" />
+              </div>
+            </div>
+            <div class="authorization__form">
+              <div>
+                <input
+                  id="password"
+                  placeholder="Пароль"
+                  name="password"
+                  type="password"
+                />
+              </div>
+            </div>
+            <div class="authorization__form">
+              <button class="authorization__button"></button>
+            </div>
+          </fieldset>
+          <p class="authorization__form-group-text">
+            Забыли логин или пароль?<a
+              class="authorization__form-link"
+              href="#"
+            >
+              Напомним!</a
+            >
+          </p>
+        </div>
+      </div>
+    </div>
+  </body>
+</html>

@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>first-layout-table</title>
+    <style>
+      table {
+        border-spacing: 0;
+        border-collapse: collapse;
+      }
+      .header,
+      .footer {
+        background: #add8e6;
+        color: #0000ff;
+        text-align: center;
+        text-transform: uppercase;
+        padding: 2px 0;
+        font-weight: bold;
+      }
+      .main__left {
+        background: #f0e68c;
+        padding: 30px 0 0 30px;
+        width: 250px;
+      }
+      .left__list {
+        list-style: disc;
+      }
+      .main__right {
+        margin-left: 280px;
+        padding: 8px 0 0 15px;
+        background: url("ball.jpg") right/ auto repeat-y;
+      }
+      .right__title {
+        text-align: center;
+      }
+      .right__image {
+        float: left;
+        padding: 0 10px 10px 0;
+      }
+      .clearFix {
+        clear: both;
+      }
+      p {
+        font-size: 21px;
+      }
+    </style>
+  </head>
+  <body>
+    <table>
+      <tr>
+        <td class="header" colspan="2">
+          <h2>Привет участникам соревнований!</h2>
+        </td>
+      </tr>
+      <tr class="main">
+        <td class="main__left">
+          <h4 class="left__title">Виды спорта:</h4>
+          <ul class="left__list">
+            <li><a href="https://t.me/ner0ny">конькобежный спорт</a></li>
+            <li><a href="https://t.me/ner0ny">биатлон</a></li>
+            <li><a href="https://t.me/ner0ny">футбол</a></li>
+            <li><a href="https://t.me/ner0ny">стрельба из лука</a></li>
+            <li><a href="https://t.me/ner0ny">прыжки в длину</a></li>
+            <li><a href="https://t.me/ner0ny">прыжки в сторону</a></li>
+          </ul>
+        </td>
+        <td class="main__right">
+          <h3 class="right__title">ФУТБОЛ</h3>
+          <img src="football.png" alt="" class="right__image" />
+          <div class="right__text">
+            <p>
+              Футбол - командный вид спорта, в котором целью является забить мяч
+              в ворота соперника ногами или другими частями тела (кроме рук)
+              большее количество раз, чем команда соперника.
+            </p>
+            <p>
+              Есть 17 официальных правил игры, каждое из которых содержит список
+              оговорок и руководящих принципов. Это правила предназначены для
+              применения для таких групп, как юниоры, взрослые, женщины и люди с
+              ограниченными физическими возможностями. Законы очень часто
+              формулировались в общих чертах, которые позволяют упростить их
+              применения в зависимости от характера игры.
+            </p>
+          </div>
+          <div class="clearFix"></div>
+        </td>
+      </tr>
+      <tr>
+        <td class="footer" colspan="2">
+          <h2>Главное не победа, а участие!</h2>
+        </td>
+      </tr>
+    </table>
+  </body>
+</html>

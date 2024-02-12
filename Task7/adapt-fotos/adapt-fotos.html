@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>adapt-fotos</title>
+    <style>
+      body {
+        margin: 0;
+      }
+      .gallery {
+        margin: 0 auto;
+        max-width: 1200px;
+        width: 100%;
+      }
+      .gallery__title {
+        text-align: center;
+      }
+      .gallery__fotos {
+        margin: 0 auto;
+      }
+      .gallery__foto {
+        float: left;
+        width: 32%;
+        margin: 0 2% 20px 0;
+      }
+      .gallery__foto:nth-child(3),
+      .gallery__foto:nth-child(6),
+      .gallery__foto:nth-child(9) {
+        margin: 0 0 20px 0;
+      }
+      img {
+        width: 100%;
+        height: 200px;
+        object-fit: cover;
+        object-position: center;
+      }
+      .gallery__fotos {
+        width: 100%;
+      }
+      @media (max-width: 980px) {
+        .gallery__foto {
+          width: 30%;
+        }
+        .gallery__foto {
+          width: 32%;
+          margin: 0 2% 20px 0;
+        }
+      }
+      @media (max-width: 768px) {
+        .gallery__foto {
+          width: 47%;
+          margin: 0 2% 10px 0;
+        }
+        .gallery__foto:nth-child(3),
+        .gallery__foto:nth-child(6),
+        .gallery__foto:nth-child(9) {
+          margin: 0 10px 10px 0;
+        }
+        .gallery__fotos {
+          width: 80%;
+          margin: 0 auto;
+        }
+      }
+      @media (max-width: 480px) {
+        .gallery__foto {
+          width: 100%;
+        }
+      }
+    </style>
+  </head>
+  <body>
+    <div class="gallery">
+      <h1 class="gallery__title">Адаптивная верстка галереи</h1>
+      <div class="gallery__fotos">
+        <div class="gallery__foto">
+          <img src="1.jpg" />
+        </div>
+        <div class="gallery__foto">
+          <img src="2.jpg" />
+        </div>
+        <div class="gallery__foto">
+          <img src="3.jpg" />
+        </div>
+        <div class="gallery__foto">
+          <img src="4.jpg" />
+        </div>
+        <div class="gallery__foto">
+          <img src="5.jpg" />
+        </div>
+        <div class="gallery__foto">
+          <img src="6.jpg" />
+        </div>
+        <div class="gallery__foto">
+          <img src="7.jpg" />
+        </div>
+        <div class="gallery__foto">
+          <img src="8.jpg" />
+        </div>
+        <div class="gallery__foto">
+          <img src="9.jpg" />
+        </div>
+      </div>
+    </div>
+  </body>
+</html>

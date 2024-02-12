@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>color-blocks-table</title>
+    <style>
+      body {
+        margin: 0;
+      }
+      table {
+        border-spacing: 0;
+        border-collapse: collapse;
+        width: 100%;
+      }
+      td {
+        padding: 0;
+      }
+      .yellow {
+        background-color: yellow;
+        width: 100%;
+        height: 25vh;
+      }
+      .green {
+        background-color: green;
+        width: 50%;
+        height: 25vh;
+      }
+      .blue {
+        background-color: blue;
+        width: 50%;
+        height: 25vh;
+      }
+      .orange {
+        background-color: orange;
+        width: 33.3%;
+        height: 25vh;
+      }
+      .purple {
+        background-color: purple;
+        width: 33.3%;
+        height: 25vh;
+      }
+      .red {
+        background-color: red;
+        width: 33.3%;
+        height: 25vh;
+      }
+      .aqua {
+        background-color: aqua;
+        height: 25vh;
+      }
+    </style>
+  </head>
+  <body>
+    <table>
+      <tr>
+        <td colspan="2" class="yellow"></td>
+      </tr>
+      <tr>
+        <td class="green"></td>
+        <td class="blue"></td>
+      </tr>
+    </table>
+    <table>
+      <tr>
+        <td class="orange"></td>
+        <td class="purple"></td>
+        <td class="red"></td>
+      </tr>
+      <tr>
+        <td colspan="3" class="aqua"></td>
+      </tr>
+    </table>
+  </body>
+</html>

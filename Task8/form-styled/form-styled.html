@@ -1,0 +1,184 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>form-styled</title>
+    <style>
+      body {
+        background-color: #808080;
+      }
+      .feedback {
+        background-color: white;
+        width: 500px;
+        margin: 100px auto 0;
+        border-radius: 15px;
+        border: #7099f8 2px solid;
+      }
+      .feedback__title {
+        color: white;
+        padding: 10px 0 10px 0;
+        text-align: center;
+        background-color: #7099f8;
+        border-radius: 13px 13px 0 0;
+        margin: -1px 0 0 0;
+      }
+      .feedback__title:before {
+        content: "";
+        background: url("") right no-repeat;
+        width: 20px;
+        height: 20px;
+        display: inline-block;
+        margin-right: 5px;
+      }
+      fieldset {
+        margin-left: 3px;
+        background-color: #fff;
+        font-size: 12px;
+        padding-top: 10px;
+        border: none;
+        border-radius: 15px;
+        display: block;
+      }
+      label {
+        padding-left: 10px;
+        color: #666666;
+        font-weight: 600;
+      }
+      input {
+        width: 90%;
+        font-size: 12px;
+        border: 1px solid #a7a7a7;
+        border-radius: 5px;
+      }
+      .feedback__form {
+        margin: 0 0 15px 0;
+      }
+      input[type="text"] {
+        background: url("") 0 0 no-repeat;
+        padding: 5px 5px 5px 30px;
+        background-position: 4px;
+        margin: 7px 0 0 0;
+      }
+      input[type="email"] {
+        background: url("") 0 0 no-repeat;
+        background-position: 4px;
+        padding: 5px 5px 5px 30px;
+        background-position: 4px;
+        margin: 7px 0 0 0;
+      }
+      input[type="tel"] {
+        background: url("") 0 0 no-repeat;
+        padding: 5px 5px 5px 30px;
+        background-position: 4px;
+        margin: 7px 0 0 0;
+      }
+      textarea {
+        background: url("") 0 0 no-repeat;
+        padding: 5px 5px 5px 40px;
+        background-position: top 5px left 10px;
+        margin: 7px 0 0 0;
+        border-radius: 5px;
+        max-width: 400px;
+        min-width: 380px;
+      }
+      .feedback__btn {
+        background-color: #7099f8;
+        border: 2px solid #7099f8;
+        border-radius: 5px;
+        color: #fff;
+        padding: 5px 50px 5px 50px;
+        margin: 0 0 0 150px;
+      }
+      input:focus {
+        outline: none;
+        border: 2px solid #7099f8;
+      }
+      textarea:focus {
+        outline: none;
+        border: 2px solid #7099f8;
+      }
+      .form-vertical .feedback__form > div {
+        display: inline-block;
+      }
+      .form-vertical .feedback__form > .feedback__gorm-group-text {
+        margin: 0 0 0 120px;
+      }
+      .form-vertical .feedback__form > .feedback__gorm-group-email {
+        margin: 0 0 0 115px;
+      }
+      .form-vertical .feedback__form > .feedback__gorm-group-tel {
+        margin: 0 0 0 100px;
+      }
+    </style>
+  </head>
+  <body>
+    <div class="feedback">
+      <h2 class="feedback__title">Обратная связь</h2>
+      <div class="feedback__form-group">
+        <form class="form">
+          <fieldset>
+            <div class="feedback__form">
+              <label for="text">Имя:</label>
+              <div class="feedback__gorm-group-text">
+                <input
+                  id="text"
+                  name="text"
+                  placeholder="Введите Ваше имя"
+                  type="text"
+                />
+              </div>
+            </div>
+            <div class="feedback__form">
+              <label for="email">Email:</label>
+              <div class="feedback__gorm-group-email">
+                <input
+                  id="email"
+                  placeholder="Введите адрес Вашей почты"
+                  name="email"
+                  type="email"
+                />
+              </div>
+            </div>
+            <div class="feedback__form">
+              <label for="tel"><span>Телефон:</span></label>
+              <div class="feedback__gorm-group-tel">
+                <input
+                  id="tel"
+                  type="tel"
+                  pattern="+375 [0-9] {7}"
+                  placeholder="Введите номер телефона"
+                  name="tel"
+                />
+              </div>
+            </div>
+            <div class="feedback__form">
+              <label for="textarea">Сообщение:</label>
+              <div>
+                <textarea
+                  placeholder="Текст сообщения"
+                  id="textarea"
+                  name="textarea"
+                  cols="47"
+                  rows="5"
+                ></textarea>
+              </div>
+            </div>
+            <div>
+              <div>
+                <button
+                  class="feedback__btn"
+                  type="submit"
+                  id="button1id"
+                  name="button1id"
+                >
+                  Отправить
+                </button>
+              </div>
+            </div>
+          </fieldset>
+        </form>
+      </div>
+    </div>
+  </body>
+</html>

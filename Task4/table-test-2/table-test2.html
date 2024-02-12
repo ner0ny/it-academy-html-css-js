@@ -1,0 +1,654 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>table-test2</title>
+    <style>
+        table {
+            border-spacing: 0;
+            border-collapse: collapse;
+        }
+        .table {
+            border: 2px solid blue;
+            width: 100%;
+        }
+        .table th {
+            background-color: gray; 
+            color: white;
+        }
+        .table td {
+            border: 2px solid blue;
+        }
+        .center {
+            text-align: center;
+        }
+        .total {
+            text-align: right;
+        }
+        .table-statistics {
+            border-spacing: 0; 
+            border-collapse: collapse;
+             width: 100%;
+        }
+        .table-statistics__th {
+            background-color: #888888;
+            color:#ffffff;
+            padding:5px;
+        }
+        .table-statistics__th-row {
+            border: 2px solid blue;
+        }
+       .table-statistics td {
+            border:2px solid blue;
+            padding:5px;
+        }
+        .table-statistics__td--align-center {
+            text-align: center;
+        }
+        .table-statistics__td--align-right {
+            text-align: right;
+        }
+        .table-square, .table-stars, .table-tree{
+            margin: 50px auto 50px;
+        }
+        .table-square td, .table-stars td {
+            width: 20px;
+            height: 20px;
+        }
+        .table-square__td--red {
+            background-color: red;
+        }
+        .table-square__td--green {
+            background-color: lawngreen;
+        }
+        .table-stars__td--pink {
+            background-color: #ff0c94;
+        }
+        .table-stars__td--purple {
+            background-color: #ee83ef;
+        }
+        .table-stars__td--rosa {
+            background-color: #ff69b5;
+        }
+        .table-stars__td--skin {
+            background-color: #ffb7c2;
+        }
+        .table-stars__td--dark-green {
+            background-color: #1c811c;
+        }
+        .table-stars__td--green {
+            background-color: #39b472;
+        }
+        .table-stars__td--lime{
+            background-color: #2ece2e;
+        }
+        .table-stars__td--neon-green{
+            background-color: #00ff00;
+        }
+        .table-tree td {
+            width: 30px;
+            height: 30px;
+        }
+        .table-tree__td--black {
+            background-color: #000000;
+        }
+        .table-tree__td--saddle-brown {
+            background-color: #8b4513;
+        }
+        .table-tree__td--dark-foldenrod {
+            background-color: #b8860b;
+        }
+        .table-tree__td--sea-green {
+            background-color: #2e8b57;
+        }
+    </style>
+</head>
+<body>
+    <h1>Пример сложной таблицы</h1>
+    <table class="table">
+        <tr>
+            <th>Название1</th>
+            <th>Название2</th>
+            <th>Ещё название</th>
+            <th>Куча элементов</th>
+            <th>Список1</th>
+            <th>Список2</th>
+        </tr>
+        <tr>
+            <td class="center" rowspan="11">JPMC</td>
+            <td rowspan="5">CST</td>
+            <td rowspan="3">CT</td>
+            <td>ADS</td>
+            <td class="center">1</td>
+            <td class="center">10</td>
+        </tr>
+        <tr>
+            <td>BTO</td>
+            <td class="center">2</td>
+            <td class="center">15</td>
+        </tr>
+        <tr>
+            <td>CSI</td>
+            <td class="center">3</td>
+            <td class="center">16</td>
+        </tr>
+        <tr>
+            <td class="center" rowspan="2">VCT</td>
+            <td>ADS</td>
+            <td class="center">4</td>
+            <td class="center">10</td>
+        </tr>
+        <tr>
+            <td>BTO</td>
+            <td class="center">5</td>
+            <td class="center">15</td>
+        </tr>
+        <tr>
+            <td class="total" colspan="3">Sub Total</td>
+            <td class="center">6</td>
+            <td class="center">15</td>
+        </tr>
+        <tr>
+            <td rowspan="4">CST</td>
+            <td rowspan="3">CT</td>
+            <td>ADS</td>
+            <td class="center">7</td>
+            <td class="center">10</td>
+        </tr>
+        <tr>
+            <td>BTO</td>
+            <td class="center">8</td>
+            <td class="center">15</td>
+        </tr>
+        <tr>
+            <td>CSI</td>
+            <td class="center">9</td>
+            <td class="center">16</td>
+        </tr>
+        <tr>
+            <td class="center">VCT</td>
+            <td>ADS</td>
+            <td class="center">10</td>
+            <td class="center">10</td>
+        </tr>
+        <tr>
+            <td class="total" colspan="3">Sub Total</td>
+            <td class="center">11</td>
+            <td class="center">15</td>
+        </tr>
+    </table>
+    <table class="table-square"> 
+        <tbody>
+            <tr>
+                <td class="table-square__td--red"></td>
+                <td></td>
+                <td class="table-square__td--red"> </td>
+                <td class="table-square__td--green"></td>
+                <td class="table-square__td--red"></td>
+                <td></td>
+                <td class="table-square__td--red"></td>
+            </tr>
+            <tr>
+                <td></td>
+                <td class="table-square__td--red"></td>
+                <td class="table-square__td--green"></td>
+                <td></td>
+                <td class="table-square__td--green"></td>
+                <td class="table-square__td--red"></td>
+                <td></td>
+            </tr>
+            <tr>
+                <td class="table-square__td--red"></td>
+                <td class="table-square__td--green"></td>
+                <td></td>
+                <td></td>
+                <td></td>
+                <td class="table-square__td--green"></td>
+                <td class="table-square__td--red"></td>
+            </tr>
+            <tr>
+                <td class="table-square__td--green"></td>
+                <td></td>
+                <td></td>
+                <td class="table-square__td--red"></td>
+                <td></td>
+                <td></td>
+                <td class="table-square__td--green"></td>
+            </tr>
+            <tr>
+                <td class="table-square__td--red"></td>
+                <td class="table-square__td--green"></td>
+                <td></td>
+                <td></td>
+                <td></td>
+                <td class="table-square__td--green"></td>
+                <td class="table-square__td--red"></td>
+            </tr>
+            <tr>
+                <td></td>
+                <td class="table-square__td--red"></td>
+                <td class="table-square__td--green"></td>
+                <td></td>
+                <td class="table-square__td--green"></td>
+                <td class="table-square__td--red"></td>
+                <td></td>
+            </tr>
+            <tr>
+                <td class="table-square__td--red"></td>
+                <td></td>
+                <td class="table-square__td--red"></td>
+                <td class="table-square__td--green"></td>
+                <td class="table-square__td--red"></td>
+                <td></td>
+                <td class="table-square__td--red"></td>
+            </tr>
+        </tbody>
+    </table>
+    <table class="table-stars">
+        <tbody>
+            <tr>
+                <td></td>
+                <td></td>
+                <td></td>
+                <td class="table-stars__td--pink"></td>
+                <td></td>
+                <td></td>
+                <td></td>
+                <td></td>
+                <td></td>
+                <td></td>
+                <td></td>
+                <td class="table-stars__td--dark-green"></td>
+                <td></td>
+                <td></td>
+                <td></td>
+                <td></td>
+                <td></td>
+                <td></td>
+                <td></td>
+                <td class="table-stars__td--pink"></td>
+                <td></td>
+                <td></td>
+                <td></td>
+            </tr>
+            <tr>
+                <td></td>
+                <td></td>
+                <td class="table-stars__td--pink"></td>
+                <td class="table-stars__td--purple"></td>
+                <td class="table-stars__td--pink"></td>
+                <td></td>
+                <td></td>
+                <td></td>
+                <td></td>
+                <td></td>
+                <td class="table-stars__td--dark-green"></td>
+                <td class="table-stars__td--green" ></td>
+                <td class="table-stars__td--dark-green"></td>
+                <td></td>
+                <td></td>
+                <td></td>
+                <td></td>
+                <td></td>
+                <td class="table-stars__td--pink"></td>
+                <td class="table-stars__td--purple"></td>
+                <td class="table-stars__td--pink"></td>
+                <td></td>
+                <td></td>
+            </tr>
+            <tr>
+                <td></td>
+                <td class="table-stars__td--pink"></td>
+                <td class="table-stars__td--purple"></td>
+                <td class="table-stars__td--rosa"></td>
+                <td class="table-stars__td--purple"></td>
+                <td class="table-stars__td--pink"></td>
+                <td></td>
+                <td></td>
+                <td></td>
+                <td class="table-stars__td--dark-green"> </td>
+                <td class="table-stars__td--green"></td>
+                <td class="table-stars__td--lime"></td>
+                <td class="table-stars__td--green"></td>
+                <td class="table-stars__td--dark-green"></td>
+                <td></td>
+                <td></td>
+                <td></td>
+                <td class="table-stars__td--pink"></td>
+                <td class="table-stars__td--purple"></td>
+                <td class="table-stars__td--rosa"></td>
+                <td class="table-stars__td--purple"></td>
+                <td class="table-stars__td--pink"></td>
+                <td></td>
+            </tr>
+            <tr>
+                <td class="table-stars__td--pink"></td>
+                <td class="table-stars__td--purple"></td>
+                <td class="table-stars__td--rosa"></td>
+                <td class="table-stars__td--skin"></td>
+                <td class="table-stars__td--rosa"></td>
+                <td class="table-stars__td--purple"></td>
+                <td class="table-stars__td--pink"></td>
+                <td></td>
+
+                <td class="table-stars__td--dark-green"></td>
+                <td class="table-stars__td--green"></td>
+                <td class="table-stars__td--lime"></td>
+                <td class="table-stars__td--neon-green"></td>
+                <td class="table-stars__td--lime"></td>
+                <td class="table-stars__td--green"></td>
+                <td class="table-stars__td--dark-green"></td>
+                <td></td>
+                <td class="table-stars__td--pink"></td>
+                <td class="table-stars__td--purple"></td>
+                <td class="table-stars__td--rosa"></td>
+                <td class="table-stars__td--skin"></td>
+                <td class="table-stars__td--rosa"></td>
+                <td class="table-stars__td--purple"></td>
+                <td class="table-stars__td--pink"></td>
+            </tr>
+            <tr>
+                <td></td>
+                <td class="table-stars__td--pink"></td>
+                <td class="table-stars__td--purple"></td>
+                <td class="table-stars__td--rosa"></td>
+                <td class="table-stars__td--purple"></td>
+                <td class="table-stars__td--pink"></td>
+                <td></td>
+                <td ></td>
+                <td></td>
+                <td class="table-stars__td--dark-green"></td>
+                <td class="table-stars__td--green"></td>
+                <td class="table-stars__td--lime"></td>
+                <td class="table-stars__td--green"></td>
+                <td class="table-stars__td--dark-green"></td>
+                <td></td>
+                <td></td>
+                <td></td>
+                <td class="table-stars__td--pink"></td>
+                <td class="table-stars__td--purple"></td>
+                <td class="table-stars__td--rosa"></td>
+                <td class="table-stars__td--purple"></td>
+                <td class="table-stars__td--pink"></td>
+                <td></td>
+            </tr>
+            <tr>
+                <td></td>
+                <td></td>
+                <td class="table-stars__td--pink"></td>
+                <td class="table-stars__td--purple"></td>
+                <td class="table-stars__td--pink"></td>
+                <td></td>
+                <td></td>
+                <td></td>
+                <td></td>
+                <td ></td>
+                <td class="table-stars__td--dark-green"></td>
+                <td class="table-stars__td--green"></td>
+                <td class="table-stars__td--dark-green"></td>
+                <td></td>
+                <td></td>
+                <td></td>
+                <td></td>
+                <td></td>
+                <td class="table-stars__td--pink"></td>
+                <td class="table-stars__td--purple"></td>
+                <td class="table-stars__td--pink"></td>
+                <td></td>
+                <td></td>
+            </tr>
+            <tr>
+                <td></td>
+                <td></td>
+                <td></td>
+                <td class="table-stars__td--pink"></td>
+                <td></td>
+                <td></td>
+                <td></td>
+                <td></td>
+                <td></td>
+                <td></td>
+                <td></td>
+                <td class="table-stars__td--dark-green"></td>
+                <td ></td>
+                <td></td>
+                <td></td>
+                <td></td>
+                <td></td>
+                <td></td>
+                <td></td>
+                <td class="table-stars__td--pink"></td>
+                <td></td>
+                <td></td>
+                <td></td>
+            </tr>
+        </tbody>
+    </table>
+    <table class="table-tree">
+        <tbody>
+            <tr>
+               <td class="table-tree__td--black"></td> 
+               <td class="table-tree__td--black"></td> 
+               <td class="table-tree__td--black"></td> 
+               <td class="table-tree__td--black"></td> 
+               <td class="table-tree__td--black"></td> 
+               <td class="table-stars__td--dark-green"></td> 
+               <td class="table-tree__td--black"></td> 
+               <td class="table-tree__td--black"></td> 
+               <td class="table-tree__td--black"></td> 
+               <td class="table-tree__td--black"></td> 
+               <td class="table-tree__td--black"></td> 
+            </tr>
+            <tr>
+                <td class="table-tree__td--black"></td>
+                <td class="table-tree__td--black"></td>
+                <td class="table-tree__td--black"></td>
+                <td class="table-tree__td--black"></td>
+                <td class="table-tree__td--sea-green"></td>
+                <td class="table-tree__td--sea-green"></td>
+                <td class="table-tree__td--sea-green"></td>
+                <td class="table-tree__td--black"></td>
+                <td class="table-tree__td--black"></td>
+                <td class="table-tree__td--black"></td>
+                <td class="table-tree__td--black"></td>
+            </tr>
+            <tr>
+                <td class="table-tree__td--black"></td>
+                <td class="table-tree__td--black"></td>
+                <td class="table-tree__td--black"></td>
+                <td class="table-stars__td--green"></td>
+                <td class="table-stars__td--green"></td>
+                <td class="table-stars__td--green"></td>
+                <td class="table-stars__td--green"></td>
+                <td class="table-stars__td--green"></td>
+                <td class="table-tree__td--black"></td>
+                <td class="table-tree__td--black"></td>
+                <td class="table-tree__td--black"></td>
+            </tr>
+            <tr>
+                <td class="table-tree__td--black"></td>
+                <td class="table-tree__td--black"></td>
+                <td class="table-stars__td--lime"</td>
+                <td class="table-stars__td--lime"></td>
+                <td class="table-stars__td--lime"></td>
+                <td class="table-stars__td--lime"></td>
+                <td class="table-stars__td--lime"></td>
+                <td class="table-stars__td--lime"></td>
+                <td class="table-stars__td--lime"></td>
+                <td class="table-tree__td--black"></td>
+                <td class="table-tree__td--black"></td>
+            </tr>
+            <tr>
+                <td class="table-tree__td--black"></td>
+                <td class="table-tree__td--black"></td>
+                <td class="table-tree__td--black"></td>
+                <td class="table-tree__td--black"></td>
+                <td class="table-stars__td--dark-green"></td>
+                <td class="table-stars__td--dark-green"></td>
+                <td class="table-stars__td--dark-green"></td>
+                <td class="table-tree__td--black"></td>
+                <td class="table-tree__td--black"></td>
+                <td class="table-tree__td--black"></td>
+                <td class="table-tree__td--black"></td>
+            </tr>
+            <tr>
+                <td class="table-tree__td--black"></td>
+                <td class="table-tree__td--black"></td>
+                <td class="table-tree__td--black"></td>
+                <td class="table-tree__td--sea-green"></td>
+                <td class="table-tree__td--sea-green"></td>
+                <td class="table-tree__td--sea-green"></td>
+                <td class="table-tree__td--sea-green"></td>
+                <td class="table-tree__td--sea-green"></td>
+                <td class="table-tree__td--black"></td>
+                <td class="table-tree__td--black"></td>
+                <td class="table-tree__td--black"></td>
+            </tr>
+            <tr>
+                <td class="table-tree__td--black"></td>
+                <td class="table-tree__td--black"></td>
+                <td class="table-stars__td--green"></td>
+                <td class="table-stars__td--green"></td>
+                <td class="table-stars__td--green"></td>
+                <td class="table-stars__td--green"></td>
+                <td class="table-stars__td--green"></td>
+                <td class="table-stars__td--green"></td>
+                <td class="table-stars__td--green"></td>
+                <td class="table-tree__td--black"></td>
+                <td class="table-tree__td--black"> </td>
+            </tr>
+            <tr>
+                <td class="table-tree__td--black"></td>
+                <td class="table-stars__td--lime"></td>
+                <td class="table-stars__td--lime"></td>
+                <td class="table-stars__td--lime"></td>
+                <td class="table-stars__td--lime"></td>
+                <td class="table-stars__td--lime"></td>
+                <td class="table-stars__td--lime"></td>
+                <td class="table-stars__td--lime"></td>
+                <td class="table-stars__td--lime"></td>
+                <td class="table-stars__td--lime"></td>
+                <td class="table-tree__td--black"></td>
+            </tr>
+            <tr>
+                <td class="table-tree__td--black"></td>
+                <td class="table-tree__td--black"></td>
+                <td class="table-tree__td--black"></td>
+                <td class="table-stars__td--dark-green"></td>
+                <td class="table-stars__td--dark-green"></td>
+                <td class="table-stars__td--dark-green"></td>
+                <td class="table-stars__td--dark-green"></td>
+                <td class="table-stars__td--dark-green"></td>
+                <td class="table-tree__td--black"></td>
+                <td class="table-tree__td--black"></td>
+                <td class="table-tree__td--black"></td>
+            </tr>
+            <tr>
+                <td class="table-tree__td--black"></td>
+                <td class="table-tree__td--black"></td>
+                <td class="table-tree__td--sea-green"></td>
+                <td class="table-tree__td--sea-green"></td>
+                <td class="table-tree__td--sea-green"></td>
+                <td class="table-tree__td--sea-green"></td>
+                <td class="table-tree__td--sea-green"></td>
+                <td class="table-tree__td--sea-green"></td>
+                <td class="table-tree__td--sea-green"></td>
+                <td class="table-tree__td--black"></td>
+                <td class="table-tree__td--black"></td>
+            </tr>
+            <tr>
+                <td class="table-tree__td--black"></td>
+                <td class="table-stars__td--green"></td>
+                <td class="table-stars__td--green"></td>
+                <td class="table-stars__td--green"></td>
+                <td class="table-stars__td--green"></td>
+                <td class="table-stars__td--green"></td>
+                <td class="table-stars__td--green"></td>
+                <td class="table-stars__td--green"></td>
+                <td class="table-stars__td--green"></td>
+                <td class="table-stars__td--green"></td>
+                <td class="table-tree__td--black"></td>
+            </tr>
+            <tr>
+                <td class="table-stars__td--lime"></td>
+                <td class="table-stars__td--lime"></td>
+                <td class="table-stars__td--lime"></td>
+                <td class="table-stars__td--lime"></td>
+                <td class="table-stars__td--lime"></td>
+                <td class="table-stars__td--lime"></td>
+                <td class="table-stars__td--lime"></td>
+                <td class="table-stars__td--lime"></td>
+                <td class="table-stars__td--lime"></td>
+                <td class="table-stars__td--lime"></td>
+                <td class="table-stars__td--lime"></td>
+            </tr>
+            <tr>
+                <td class="table-tree__td--black"></td>
+                <td class="table-tree__td--black"></td>
+                <td class="table-tree__td--black"></td>
+                <td class="table-tree__td--black"></td>
+                <td class="table-tree__td--saddle-brown"></td>
+                <td class="table-tree__td--dark-foldenrod"></td>
+                <td class="table-tree__td--saddle-brown"></td>
+                <td class="table-tree__td--black"></td>
+                <td class="table-tree__td--black"></td>
+                <td class="table-tree__td--black"></td>
+                <td class="table-tree__td--black"></td>
+            </tr>
+            <tr>
+                <td class="table-tree__td--black"></td>
+                <td class="table-tree__td--black"></td>
+                <td class="table-tree__td--black"></td>
+                <td class="table-tree__td--black"></td>
+                <td class="table-tree__td--saddle-brown"></td>
+                <td class="table-tree__td--dark-foldenrod"></td>
+                <td class="table-tree__td--saddle-brown"></td>
+                <td class="table-tree__td--black"></td>
+                <td class="table-tree__td--black"></td>
+                <td class="table-tree__td--black"></td>
+                <td class="table-tree__td--black"></td>
+            </tr>
+            <tr>
+                <td class="table-tree__td--black"></td>
+                <td class="table-tree__td--black"></td>
+                <td class="table-tree__td--black"></td>
+                <td class="table-tree__td--black"></td>
+                <td class="table-tree__td--saddle-brown"></td>
+                <td class="table-tree__td--dark-foldenrod"></td>
+                <td class="table-tree__td--saddle-brown"></td>
+                <td class="table-tree__td--black"></td>
+                <td class="table-tree__td--black"></td>
+                <td class="table-tree__td--black"></td>
+                <td class="table-tree__td--black"></td>
+            </tr>
+            <tr>
+                <td class="table-tree__td--black"></td>
+                <td class="table-tree__td--black"></td>
+                <td class="table-tree__td--black"></td>
+                <td class="table-tree__td--black"></td>
+                <td class="table-tree__td--saddle-brown"></td>
+                <td class="table-tree__td--dark-foldenrod"></td>
+                <td class="table-tree__td--saddle-brown"></td>
+                <td class="table-tree__td--black"></td>
+                <td class="table-tree__td--black"></td>
+                <td class="table-tree__td--black"></td>
+                <td class="table-tree__td--black"></td>
+            </tr>
+            <tr>
+                <td class="table-tree__td--black"></td>
+                <td class="table-tree__td--black"></td>
+                <td class="table-tree__td--black"></td>
+                <td class="table-tree__td--black"></td>
+                <td class="table-tree__td--saddle-brown"></td>
+                <td class="table-tree__td--dark-foldenrod"></td>
+                <td class="table-tree__td--saddle-brown"></td>
+                <td class="table-tree__td--black"></td>
+                <td class="table-tree__td--black"></td>
+                <td class="table-tree__td--black"></td>
+                <td class="table-tree__td--black"></td>
+            </tr>
+        </tbody>
+    </table>
+</body>
+</html>

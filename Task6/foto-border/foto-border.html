@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>foto-border</title>
+    <style>
+      .border {
+        position: relative;
+        margin: 50px auto;
+        width: 380px;
+        height: 180px;
+        border: 5px solid #90ee90;
+      }
+      .border::before {
+        position: absolute;
+        display: block;
+        top: 0;
+        left: 0;
+        z-index: -1;
+        content: "";
+        margin-left: 10px;
+        margin-top: 10px;
+        width: 380px;
+        height: 180px;
+        border-bottom: 5px #006400 solid;
+        border-right: 5px #006400 solid;
+      }
+      .border::after {
+        position: absolute;
+        display: block;
+        top: 0;
+        left: 0;
+        margin-top: 5px;
+        margin-left: 5px;
+        z-index: -1;
+        content: "";
+        width: 380px;
+        height: 180px;
+        border-bottom: 5px green solid;
+        border-right: 5px green solid;
+      }
+      img {
+        width: 380px;
+        height: 180px;
+      }
+    </style>
+  </head>
+  <body>
+    <div class="border">
+      <img src="http://placehold.it/380x180" alt="example image" />
+    </div>
+  </body>
+</html>

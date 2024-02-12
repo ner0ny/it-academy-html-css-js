@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>one-block</title>
+    <style>
+      body {
+        margin: 0;
+        background: #00ffff;
+      }
+      .one-block {
+        width: 400px;
+        height: 400px;
+        background-color: yellow;
+        margin: 50px auto 0;
+      }
+      @media (max-width: 1280px) {
+        .one-block {
+          background-color: red;
+        }
+      }
+      @media (max-width: 1024px) {
+        .one-block {
+          border-radius: 25%;
+        }
+      }
+      @media (max-width: 768px) {
+        .one-block {
+          background-color: yellow;
+        }
+      }
+      @media (max-width: 640px) {
+        .one-block {
+          border: 3px solid red;
+        }
+      }
+      @media (max-width: 480px) {
+        .one-block {
+          border-radius: 50%;
+        }
+      }
+      @media (max-width: 320px) {
+        .one-block {
+          border-radius: 0;
+          border: 0;
+          margin: 0;
+          width: 100%;
+        }
+      }
+    </style>
+  </head>
+  <body>
+    <div class="one-block"></div>
+  </body>
+</html>

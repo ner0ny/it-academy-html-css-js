@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>figure</title>
+  </head>
+  <body>
+    <h1 style="text-align: center">figure tags</h1>
+    <h2>figure</h2>
+    <p>
+      Используется для группирования любых элементов, например, изображений и
+      подписей к ним.
+    </p>
+    <hr />
+    <h2>figcaption</h2>
+    <p>
+      Содержит описание для тега figure. Тег figcaption должен быть первым или
+      последним элементом в группе.
+    </p>
+    <p>
+      &#60;figure&#62; &#60;figcaption&#62; Описание &#60;figcaption&#62;
+      &#60;figure&#62;
+    </p>
+    <figure>
+      <img
+        src="sea.jpeg"
+        height="400"
+        width="700"
+        title="Море"
+        alt="Картинка моря"
+      />
+      <figcaption>Картинка моря.</figcaption>
+    </figure>
+    <hr />
+    <h3>Плюсы:</h3>
+    <ul style="list-style-type: circle">
+      <li>можно поместить несколько img</li>
+      <li>
+        могут быть не только картинки, но и блоки кода, аудио и видео, рекламные
+        объявления
+      </li>
+      <li>удобно для стилизации</li>
+      <li>является фрагментом независимого содержания</li>
+      <li>может быть удален из документа без ущерба его смыслу</li>
+    </ul>
+    <h3>Минусы:</h3>
+    <ul style="list-style-type: circle">
+      <li>целенаправленное использование, не стоит "пихать" везде</li>
+      <li>
+        если положение содержимого в тексте тесно связано с предыдущим и
+        последующим содержимым, то лучше слудует использовать div, img
+      </li>
+    </ul>
+  </body>
+</html>

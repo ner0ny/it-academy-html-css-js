@@ -1,0 +1,15 @@
+div {
+  margin: 0 0 30px 0;
+}
+table {
+  border-spacing: 0;
+  border-collapse: collapse;
+  border: 1px solid black;
+}
+td {
+  border: 1px solid black;
+  padding: 15px 10px;
+}
+.disable {
+  display: none;
+}

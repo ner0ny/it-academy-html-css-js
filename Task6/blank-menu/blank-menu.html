@@ -1,0 +1,148 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>blank-menu</title>
+    <style>
+      body {
+        background-color: #808080;
+        color: aliceblue;
+        font-size: 26px;
+      }
+      h1 {
+        text-align: center;
+      }
+      .menu {
+        margin: 0 50px 0 50px;
+      }
+      .menu ul {
+        margin: 0;
+        padding: 0;
+        list-style-type: none;
+      }
+      a {
+        text-decoration: none;
+        color: aliceblue;
+        display: block;
+      }
+      .menu li {
+        float: left;
+        position: relative;
+        width: 150px;
+        text-align: center;
+        height: 60px;
+        width: 190px;
+      }
+      .menu__list {
+        background-color: #2d2d2d;
+      }
+      .menu__link {
+        display: block;
+        height: 60px;
+        width: 190px;
+        line-height: 60px;
+      }
+      .menu ul:after {
+        content: "";
+        display: table;
+        clear: both;
+      }
+      .submenu__list {
+        position: absolute;
+        width: 190px;
+        visibility: hidden;
+        opacity: 0;
+        color: red;
+      }
+      .menu li:hover > .submenu__list {
+        visibility: visible;
+        opacity: 1;
+      }
+      .submenu li {
+        position: absolute;
+      }
+      .submenu__link {
+        background-color: aliceblue;
+        color: gray;
+        height: 60px;
+        width: 190px;
+        padding-top: 10px;
+      }
+      .submenu__link:hover {
+        border-left: 5px solid #3f6595;
+        width: 186px;
+        background-color: lightgrey;
+      }
+      .menu li:hover {
+        background-color: #3f6595;
+      }
+      .menu li:hover ul {
+        display: block;
+      }
+      .submenu__list .submenu__list {
+        position: absolute;
+        left: 100%;
+        top: -1px;
+      }
+      .icon-home:before,
+      .icon-about:before,
+      .icon-gallery:before,
+      .icon-blog:before,
+      .icon-contacts:before {
+        content: "";
+        display: inline-block;
+        width: 20px;
+        height: 20px;
+        padding: 0 10px 0 0;
+      }
+      .icon-home:before {
+        background: url("sprites.png") left -90px top -10px no-repeat;
+      }
+      .icon-about:before {
+        background: url("sprites.png") left -10px top -10px no-repeat;
+      }
+      .icon-gallery:before {
+        background: url("sprites.png") left -50px top -50px no-repeat;
+      }
+      .icon-blog:before {
+        background: url("sprites.png") left -10px top -50px no-repeat;
+      }
+      .icon-contacts:before {
+        background: url("sprites.png") left -50px top -10px no-repeat;
+      }
+    </style>
+  </head>
+  <body>
+    <h1>Много-уровневое горизонтальное меню</h1>
+    <div class="menu">
+      <ul class="menu__list">
+        <li>
+          <a class="menu__link icon-home" href="#">Главная</a>
+          <ul class="submenu__list">
+            <li><a class="submenu__link" href="#">Подменю 1</a></li>
+            <li><a class="submenu__link" href="#">Подменю 2</a></li>
+            <li><a class="submenu__link" href="#">Подменю 3</a></li>
+          </ul>
+        </li>
+        <li><a class="menu__link icon-about" href="#"> О нас</a></li>
+        <li>
+          <a class="menu__link icon-gallery" href="#">Портфолио</a>
+          <ul class="submenu__list">
+            <li><a class="submenu__link" href="#">Подменю 1</a></li>
+            <li>
+              <a class="submenu__link" href="#">Уровень 3 меню </a>
+              <ul class="submenu__list">
+                <li><a class="submenu__link" href="#">Подменю 4</a></li>
+                <li><a class="submenu__link" href="#">Подменю 5</a></li>
+                <li><a class="submenu__link" href="#">Подменю 6</a></li>
+              </ul>
+            </li>
+          </ul>
+        </li>
+        <li><a class="menu__link icon-blog" href="#">Блог</a></li>
+        <li><a class="menu__link icon-contacts" href="#">Контакты</a></li>
+      </ul>
+    </div>
+  </body>
+</html>

@@ -1,0 +1,162 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>animations</title>
+    <style>
+      .animations {
+        max-width: 700px;
+        margin: 100px auto 0;
+        border: 5px solid rgb(110, 16, 16);
+        background-color: #fff;
+        height: 600px;
+        position: relative;
+      }
+      .animations:hover > .animations__square-small {
+        animation: square-small 2.5s ease infinite alternate;
+      }
+      .animations:hover > .animations__diamond {
+        animation: diamond 2.5s ease infinite alternate;
+      }
+      .animations:hover > .animations__circle-small {
+        animation: circle-small 2.5s ease infinite alternate;
+      }
+      .animations:hover > .animations__square-big {
+        animation: square-big 2.5s ease infinite alternate;
+      }
+      .animations__circle-big {
+        width: 100px;
+        height: 100px;
+        border-radius: 50%;
+        border: 2px solid red;
+        background-color: red;
+        animation: circle-big 2.5s ease infinite alternate;
+        margin: 50px auto 0;
+      }
+      @keyframes circle-big {
+        from {
+          width: 100px;
+          height: 100px;
+          border-radius: 50%;
+          border: 2px solid red;
+          background-color: red;
+        }
+        to {
+          width: 150px;
+          height: 150px;
+          border-radius: 0;
+          border: 2px solid yellow;
+          background-color: yellow;
+        }
+      }
+      .animations__square-small {
+        width: 80px;
+        height: 80px;
+        border: 2px solid limegreen;
+        background-color: limegreen;
+
+        position: absolute;
+        top: 100px;
+        left: 40px;
+      }
+      @keyframes square-small {
+        from {
+          width: 80px;
+          height: 80px;
+          border: 2px solid limegreen;
+          background-color: limegreen;
+        }
+        to {
+          width: 80px;
+          height: 80px;
+          background-color: red;
+          position: absolute;
+          border-radius: 50%;
+        }
+      }
+      .animations__diamond {
+        width: 70px;
+        height: 70px;
+        transform: rotate(45deg);
+        border: 2px solid lightgreen;
+        background-color: lightgreen;
+        position: absolute;
+        top: 240px;
+        left: 200px;
+      }
+      @keyframes diamond {
+        from {
+          width: 70px;
+          height: 70px;
+          border: 2px solid lightgreen;
+          background-color: lightgreen;
+        }
+        to {
+          width: 80px;
+          height: 80px;
+          background-color: yellow;
+          position: absolute;
+          border-radius: 50%;
+          transform: skewX(30deg);
+        }
+      }
+      .animations__circle-small {
+        width: 100px;
+        height: 100px;
+        border-radius: 50%;
+        border: 2px solid yellow;
+        background-color: yellow;
+        position: absolute;
+        top: 400px;
+        right: 100px;
+      }
+      @keyframes circle-small {
+        from {
+          width: 100px;
+          height: 100px;
+          border-radius: 50%;
+          border: 2px solid yellow;
+          background-color: yellow;
+        }
+        to {
+          transform: skewY(50deg);
+          background-color: orangered;
+          border: 2px solid orangered;
+        }
+      }
+      .animations__square-big {
+        width: 130px;
+        height: 130px;
+        border: 2px solid lightsalmon;
+        background-color: lightsalmon;
+        position: absolute;
+        bottom: 100px;
+        left: 80px;
+      }
+      @keyframes square-big {
+        from {
+          width: 130px;
+          height: 130px;
+          border: 2px solid lightsalmon;
+          background-color: lightsalmon;
+        }
+        to {
+          width: 50px;
+          height: 50px;
+          background-color: blue;
+          border: 2px solid blue;
+        }
+      }
+    </style>
+  </head>
+  <body>
+    <div class="animations">
+      <div class="animations__circle-big"></div>
+      <div class="animations__square-small"></div>
+      <div class="animations__diamond"></div>
+      <div class="animations__circle-small"></div>
+      <div class="animations__square-big"></div>
+    </div>
+  </body>
+</html>

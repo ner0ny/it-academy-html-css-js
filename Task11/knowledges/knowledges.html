@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>knowledges</title>
+    <style>
+      body {
+        background-color: rgb(195, 0, 255);
+      }
+      .knowledges {
+        max-width: 750px;
+        margin: 30px auto 0;
+        background-color: #fff;
+        padding: 20px 30px 30px 30px;
+      }
+      .progress-bar {
+        --time: 3s;
+        height: 16px;
+        padding: 4px;
+        width: 100%;
+        background-color: lightcyan;
+        border-radius: 25px;
+      }
+      .progress-bar span {
+        display: inline-block;
+        height: 16px;
+        border-radius: 25px;
+        animation: width var(--time);
+      }
+      .yellow span {
+        background-color: yellow;
+        width: 80%;
+      }
+      .purple span {
+        background-color: purple;
+        width: 70%;
+      }
+      .red span {
+        background-color: red;
+        width: 60%;
+      }
+      .green span {
+        background-color: green;
+        width: 50%;
+      }
+      @keyframes width {
+        from {
+          width: 0;
+        }
+      }
+    </style>
+  </head>
+  <body>
+    <div class="knowledges">
+      <h3>Мои знания:</h3>
+      <h3>HTML</h3>
+      <div class="progress-bar yellow"><span></span></div>
+      <h3>CSS</h3>
+      <div class="progress-bar purple"><span></span></div>
+      <h3>JavaScript</h3>
+      <div class="progress-bar red"><span></span></div>
+      <h3>jQuery</h3>
+      <div class="progress-bar green"><span></span></div>
+    </div>
+  </body>
+</html>

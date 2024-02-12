@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>background-size</title>
+  </head>
+  <body style="background-color: thistle">
+    <h1 style="color: slateblue; text-align: center">Background-size</h1>
+    <div style="margin: 0 0 0 20px">
+      <p style="text-indent: 30px">
+        Масштабирует фоновое изображение согласно заданным размерам. В цифрах,
+        где первое значение (проценты, px) определяет ширину, второе - высоту.
+      </p>
+    </div>
+    <h2 style="color: peru; text-align: center">По ширине</h2>
+    <div style="margin: 0 0 0 20px">
+      <p style="text-indent: 30px">Размеры картинки по ширине блока</p>
+      <p style="border: 1px solid yellow; width: 500px; padding: 15px">
+        background: url('img/background/bg.jpg') 0 0/
+        <span style="background-color: yellow"> 100% auto</span> no-repeat;
+      </p>
+      <div
+        style="height: 300px; background: url(bg.jpg) 0 0/100% auto no-repeat"
+      ></div>
+    </div>
+    <h2 style="color: peru; text-align: center">По высоте</h2>
+    <div style="margin: 0 0 0 20px">
+      <p style="text-indent: 30px">Размеры картинки по высоте блока</p>
+      <p style="border: 1px solid yellow; width: 500px; padding: 15px">
+        background: url('img/background/bg.jpg') 0 0/
+        <span style="background-color: yellow">auto 100%</span> no-repeat;
+      </p>
+      <div
+        style="
+          height: 300px;
+          background: url(bg.jpg) 0 0 / auto 100% no-repeat;
+          margin: 20px 0 30px 0;
+        "
+      ></div>
+    </div>
+    <h2 style="color: peru; text-align: center">Расстянуть</h2>
+    <div style="margin: 0 0 0 20px">
+      <p style="text-indent: 30px">
+        Pасстягиваем картинку на всю ширину и высоту блока
+      </p>
+      <p style="border: 1px solid yellow; width: 500px; padding: 15px">
+        background: url('img/background/bg.jpg') 0 0/
+        <span style="background-color: yellow">100% 100% </span> no-repeat;
+      </p>
+      <div
+        style="height: 300px; background: url(bg.jpg) 0 0/100% 100% no-repeat"
+      ></div>
+    </div>
+    <h2 style="color: peru; text-align: center">contain</h2>
+    <div style="margin: 0 0 0 20px">
+      <p style="text-indent: 30px">
+        Масштабирует изображение с сохранением пропорций таким образом, чтобы
+        картинка целиком поместилась внутрь блока. То есть по меньшей стороне
+        картинки
+      </p>
+      <p style="border: 1px solid yellow; width: 500px; padding: 15px">
+        background: url('img/background/bg.jpg') 0 0/
+        <span style="background-color: yellow">contain</span> no-repeat;
+      </p>
+      <div
+        style="height: 300px; background: url(bg.jpg) 0 0 / contain no-repeat"
+      ></div>
+    </div>
+    <h2 style="color: peru; text-align: center">cover</h2>
+    <div style="margin: 0 0 0 20px">
+      <p style="text-indent: 30px">
+        Масштабирует изображение с сохранением пропорций так, чтобы его ширина
+        или высота равнялась ширине или высоте блока. То есть по большей стороне
+        картинки
+      </p>
+      <p style="border: 1px solid yellow; width: 500px; padding: 15px">
+        background: url('img/background/bg.jpg') 0 0/
+        <span style="background-color: yellow">cover</span> no-repeat;
+      </p>
+      <div
+        style="height: 300px; background: url(bg.jpg) 0 0 / cover no-repeat"
+      ></div>
+    </div>
+    <h2 style="color: peru; text-align: center">Размеры</h2>
+    <div style="margin: 0 0 0 20px">
+      <p style="text-indent: 30px">
+        Устанавливаем конкретные размеры. Если установлено одно значение, оно
+        задает ширину фона, второе значение принимается за auto. Пропорции
+        картинки при этом сохраняются. Использование двух значений через пробел
+        задает ширину и высоту фоновой картинки
+      </p>
+      <p style="border: 1px solid yellow; width: 500px; padding: 15px">
+        background: url('img/background/bg.jpg') 0 0/
+        <span style="background-color: yellow">200px 150px</span> no-repeat;
+      </p>
+      <div
+        style="
+          height: 300px;
+          background: url(bg.jpg) 0 0/ 200px 150px no-repeat;
+        "
+      ></div>
+    </div>
+  </body>
+</html>

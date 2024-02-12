@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="styles.css" />
+    <title>fight-water-and-fire</title>
+    <style>
+      body {
+        background: black;
+      }
+      svg {
+        position: absolute;
+        top: 0;
+        right: 0;
+        bottom: 0;
+        left: 0;
+        margin: auto;
+        width: 560px;
+        height: 540px;
+      }
+      text {
+        font-size: 140px;
+        stroke-width: 13;
+        stroke-opacity: 0.6;
+        font-weight: bold;
+      }
+      .text-water {
+        fill: url(#water);
+        stroke: #063a5c;
+      }
+      .text-vs {
+        stroke-width: 2;
+        stroke: #ffffffc0;
+        font-size: 100px;
+      }
+      .text-fire {
+        fill: url(#fire);
+        stroke: #441518d7;
+      }
+    </style>
+  </head>
+  <body>
+    <svg>
+      <pattern
+        id="water"
+        width="256"
+        height="256"
+        patternUnits="userSpaceOnUse"
+      >
+        <image
+          xlink:href="https://i.gifer.com/Eu8R.gif"
+          width="256"
+          height="256"
+        />
+      </pattern>
+
+      <pattern
+        id="fire"
+        width="435"
+        height="250"
+        patternUnits="userSpaceOnUse"
+        x="2"
+        y="0"
+      >
+        <image
+          xlink:href="https://i.gifer.com/1JBz.gif"
+          width="435"
+          height="250"
+        />
+      </pattern>
+
+      <text x="50%" y="155" class="text-water" text-anchor="middle">Вода</text>
+      <text x="50%" y="295" class="text-vs" text-anchor="middle">vs</text>
+      <text x="50%" y="470" class="text-fire" text-anchor="middle">Огонь</text>
+    </svg>
+  </body>
+</html>

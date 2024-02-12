@@ -1,0 +1,142 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>form</title>
+    <style>
+      .row {
+        display: inline-block;
+      }
+      .form__buttons {
+        text-align: center;
+      }
+      .form-group {
+        margin: 0 0 15px 0;
+      }
+    </style>
+  </head>
+  <body>
+    <form class="form">
+      <fieldset>
+        <legend>Анкета нового пользователя</legend>
+        <div class="form-group">
+          <label for="name">Имя:</label>
+          <div class="row">
+            <input id="name" name="name" type="text" />
+          </div>
+        </div>
+        <div class="form-group">
+          <label for="surname">Фамилия:</label>
+          <div class="row">
+            <input id="surname" name="surname" type="text" />
+          </div>
+        </div>
+        <div class="form-group">
+          <label>Укажите пол:</label>
+          <div class="row">
+            <div class="row">
+              <input
+                type="radio"
+                name="exampleRadios"
+                id="exampleRadios1"
+                value="value-1"
+              />
+              <label for="exampleRadios1"> мужской </label>
+            </div>
+            <div class="row">
+              <input
+                type="radio"
+                name="exampleRadios"
+                id="exampleRadios2"
+                value="value-2"
+              />
+              <label for="exampleRadios2"> женский </label>
+            </div>
+          </div>
+        </div>
+        <div class="form-group">
+          <label for="select">Страна проживания:</label>
+          <div class="row">
+            <select id="select" name="select" class="custom-select">
+              <option value="value1">Беларусь</option>
+              <option value="value2">Россия</option>
+              <option value="value3">Польша</option>
+            </select>
+          </div>
+        </div>
+        <div class="form-group">
+          <label>Владение языками:</label>
+          <div class="row">
+            <div class="row">
+              <input
+                type="checkbox"
+                name="exampleCheckboxes2"
+                id="exampleCheckboxes1"
+                value="value-1"
+              />
+              <label for="exampleCheckboxes1"> русский </label>
+            </div>
+            <div class="row">
+              <input
+                type="checkbox"
+                name="exampleCheckboxes2"
+                id="exampleCheckboxes2"
+                value="value-2"
+              />
+              <label for="exampleCheckboxes2"> белорусский </label>
+            </div>
+            <div class="row">
+              <input
+                type="checkbox"
+                name="exampleCheckboxes2"
+                id="exampleCheckboxes3"
+                value="value-3"
+              />
+              <label for="exampleCheckboxes3"> английский </label>
+            </div>
+          </div>
+        </div>
+        <div class="form-group">
+          <label for="exampleFormControlFile1">Фото профиля</label>
+          <div class="row">
+            <input type="file" id="exampleFormControlFile1" />
+          </div>
+        </div>
+        <div class="form-group">
+          <label for="login">Введите логин:</label>
+          <div class="row">
+            <input id="login" name="login" type="text" />
+          </div>
+        </div>
+        <div class="form-group">
+          <label for="email">Введите email:</label>
+          <div class="row">
+            <input id="email" name="email" type="text" />
+          </div>
+        </div>
+        <div class="form-group">
+          <label for="password1">Введите пароль:</label>
+          <div class="row">
+            <input id="password1" name="password1" type="password" />
+          </div>
+        </div>
+        <div class="form-group">
+          <label for="password2">Повторите пароль:</label>
+          <div class="row">
+            <input id="password2" name="password2" type="password" />
+          </div>
+        </div>
+        <hr />
+        <div class="form__buttons">
+          <button type="submit" id="button1id" name="button1id" disabled>
+            Отправить
+          </button>
+          <button type="button" id="button2id" name="button2id">
+            Отменить
+          </button>
+        </div>
+      </fieldset>
+    </form>
+  </body>
+</html>

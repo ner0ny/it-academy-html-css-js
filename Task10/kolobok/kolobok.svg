@@ -1,0 +1,23 @@
+<svg width="500" height="300" xmlns="http://www.w3.org/2000/svg"> 	
+    <ellipse cx="100" cy="250" rx="60" ry="30" fill="#D3D3D3"></ellipse> 
+    <ellipse cx="400" cy="250" rx="60" ry="30" fill="#D3D3D3"></ellipse> 
+    <circle r="80" cx="100" cy="170" fill="#FFA500"></circle>
+    <circle r="80" cx="400" cy="170" fill="#FFD700"></circle>
+    <ellipse fill="#DC143C" cy="200" cx="100" ry="7" rx="16"></ellipse>
+    <ellipse fill="#DC143C" cy="200" cx="385" ry="15" rx="9"></ellipse>
+    <circle r="30" cx="135" cy="150" fill="white"></circle>
+    <circle r="30" cx="90" cy="150" fill="white"></circle>
+    <circle r="30" cx="360" cy="150" fill="white"></circle>
+    <circle r="30" cx="410" cy="150" fill="white"></circle>
+    <circle r="8" cx="400" cy="150" fill="black"></circle>
+    <circle r="8" cx="350" cy="150" fill="black"></circle>
+    <circle r="8" cx="100" cy="150" fill="black"></circle>
+    <circle r="8" cx="140" cy="150" fill="black"></circle>
+    <circle r="10" cx="115" cy="175" fill="black"></circle>
+    <polygon fill="#FFA500" points="35,85 90,105 35,125"></polygon>
+    <polygon fill="black" points="45,95 70,105 35,125"></polygon>
+    <polygon fill="#FFA500" points="155,85 160,117 35,125"></polygon>
+    <polygon fill="black" points="150,90 160,125 129,99"></polygon>
+    <ellipse fill="#FFA500" cy="130" cx="10" transform="rotate(-15 15 120)" ry="30" rx="10"></ellipse>
+    <polygon fill="white" points="5,110 10,140 15,120"></polygon>
+</svg>

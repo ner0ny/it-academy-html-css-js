@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>tv-set</title>
+  </head>
+  <style>
+    svg {
+      display: block;
+    }
+    .svg__title {
+      margin: 10px 0 0 80px;
+    }
+  </style>
+  <body>
+    <svg class="svg__title" width="500" height="200">
+      <path
+        id="test-path"
+        fill="none"
+        stroke="cyan"
+        stroke-width="1"
+        d="M3.858,58.607 c16.784-5.985,33.921-10.518,51.695-12.99c50.522-7.028,101.982,0.51,151.892,8.283c17.83,2.777,35.632,5.711,53.437,8.628 c51.69,8.469,103.241,11.438,155.3,3.794c53.714-7.887,106.383-20.968,159.374-32.228c11.166-2.373,27.644-7.155,39.231-4.449"
+      />
+      <text stroke="red">
+        <textPath
+          xlink:href="#test-path"
+          startOffset="20"
+          font-size="34"
+          fill="white"
+        >
+          Здесь интересный заголовок
+        </textPath>
+      </text>
+    </svg>
+    <svg width="730" height="700">
+      <rect
+        width="700"
+        height="600"
+        x="10"
+        y="5"
+        rx="140"
+        ry="150"
+        fill="gray"
+      />
+      <rect
+        width="570"
+        height="500"
+        x="40"
+        y="50"
+        rx="140"
+        ry="150"
+        fill="#87CEEB"
+      />
+      <rect width="70" height="150" x="625" y="150" rx="20" />
+      <rect width="50" height="20" fill="red" x="635" y="170" rx="10" />
+      <rect width="50" height="20" fill="yellow" x="635" y="210" rx="10" />
+      <rect width="50" height="20" fill="green" x="635" y="250" rx="10" />
+      <rect width="30" height="50" fill="black" x="150" y="605" ry="5" />
+      <rect width="30" height="50" fill="black" x="470" y="605" ry="5" />
+      <circle r="25" cy="460" cx="650" fill="black" />
+      <circle r="160" cy="300" cx="330" fill="red" />
+      <circle r="120" cy="300" cx="330" fill="white" />
+      <circle r="80" cy="300" cx="330" fill="red" />
+      <circle r="40" cy="300" cx="330" fill="white" />
+      <circle r="20" cy="300" cx="330" fill="red" />
+    </svg>
+  </body>
+</html>

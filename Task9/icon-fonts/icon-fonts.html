@@ -1,0 +1,365 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>icon-fonts</title>
+    <style>
+      @font-face {
+        font-family: "icomoon";
+        src: url("icomoon.woff") format("woff");
+
+        font-weight: normal;
+        font-style: normal;
+        font-display: block;
+      }
+      [class^="icon-"],
+      [class*=" icon-"] {
+        font-family: "icomoon" !important;
+        speak: never;
+        font-style: normal;
+        font-weight: normal;
+        font-variant: normal;
+        text-transform: none;
+        line-height: 1;
+        -webkit-font-smoothing: antialiased;
+        -moz-osx-font-smoothing: grayscale;
+      }
+      .icon-home3:before {
+        content: "\e902";
+      }
+      .icon-images:before {
+        content: "\e90e";
+      }
+      .icon-music:before {
+        content: "\e911";
+      }
+      .icon-film:before {
+        content: "\e913";
+      }
+      .icon-user:before {
+        content: "\e971";
+      }
+      .icon-cogs:before {
+        content: "\e995";
+      }
+      .icon-download3:before {
+        content: "\e9c7";
+      }
+      .icon-google-plus:before {
+        content: "\ea8b";
+      }
+      .icon-facebook:before {
+        content: "\ea90";
+      }
+      .icon-twitter:before {
+        content: "\ea96";
+      }
+      .icon-rss:before {
+        content: "\ea9b";
+      }
+      .icon-steam2:before {
+        content: "\eaad";
+      }
+      .icon-github:before {
+        content: "\eab0";
+      }
+      .icon-appleinc:before {
+        content: "\eabe";
+      }
+      .icon-windows8:before {
+        content: "\eac2";
+      }
+      .icon-skype:before {
+        content: "\eac5";
+      }
+      .icon-pinterest:before {
+        content: "\ead2";
+      }
+      .icon-chrome:before {
+        content: "\ead9";
+      }
+      .icon-firefox:before {
+        content: "\e900";
+      }
+      .icon-IE:before {
+        content: "\eadb";
+      }
+      .icon-safari:before {
+        content: "\eadd";
+      }
+      .icon-opera:before {
+        content: "\eade";
+      }
+      .icon-html-five:before {
+        content: "\eae4";
+      }
+      .icon-css3:before {
+        content: "\eae6";
+      }
+
+      body {
+        background-color: #ebebeb;
+      }
+      h1 {
+        text-align: center;
+        text-transform: uppercase;
+        margin: 30px 0 50px 0;
+        color: #3b3b3b;
+      }
+      .icons {
+        max-width: 1200px;
+        margin: 0 auto;
+      }
+      .icons__list {
+        list-style: none;
+        max-width: 100%;
+        padding: 0;
+      }
+      .icons__link {
+        background-color: #ffa500;
+        display: block;
+        color: aliceblue;
+        line-height: 23px;
+        padding: 10px 0 10px 0;
+        text-decoration: none;
+        font-size: 14px;
+        box-shadow: 1px 1px 0px 2px rgba(0, 0, 1, 0.527);
+      }
+
+      i {
+        color: aliceblue;
+        background-color: #444444;
+        padding: 10px 8px 8px 8px;
+        font-size: 50px;
+        float: left;
+        margin: 0 20px 0 0;
+      }
+      li {
+        margin: 0 1% 10px 0;
+        float: left;
+        width: 24.2%;
+      }
+      li:nth-child(4),
+      li:nth-child(8),
+      li:nth-child(12),
+      li:nth-child(16),
+      li:nth-child(20),
+      li:nth-child(24) {
+        margin: 0 0 10px 0;
+      }
+      @media (max-width: 980px) {
+        li {
+          margin: 0 1% 10px 0;
+          width: 32.4%;
+        }
+        li:nth-child(3),
+        li:nth-child(6),
+        li:nth-child(9),
+        li:nth-child(12),
+        li:nth-child(13),
+        li:nth-child(15),
+        li:nth-child(18),
+        li:nth-child(21) {
+          margin: 0 0 10px 0;
+        }
+        li:nth-child(4),
+        li:nth-child(8),
+        li:nth-child(13),
+        li:nth-child(16),
+        li:nth-child(20) {
+          margin: 0 1% 10px 0;
+        }
+      }
+      @media (max-width: 768px) {
+        li:nth-child(odd) {
+          margin: 0 4% 20px 0;
+          width: 48%;
+        }
+        li:nth-child(even) {
+          margin: 0 0 20px 0;
+          width: 48%;
+        }
+      }
+      @media (max-width: 480px) {
+        li:nth-child(even),
+        li:nth-child(odd) {
+          margin: 0 0 50px 0;
+          width: 100%;
+        }
+      }
+    </style>
+  </head>
+  <body>
+    <h1>Кнопки с использованием иконических шрифтов</h1>
+    <div class="icons">
+      <ul class="icons__list">
+        <li>
+          <i class="icon-facebook"></i
+          ><a class="icons__link" href="#">Facebook <br />Посетить Facebook </a>
+        </li>
+        <li>
+          <i class="icon-twitter"></i
+          ><a class="icons__link" href="#">
+            Twitter <br />
+            Пoсетить Twitter</a
+          >
+        </li>
+        <li>
+          <i class="icon-google-plus"></i
+          ><a class="icons__link" href="#">
+            Google <br />
+            Посетить Google</a
+          >
+        </li>
+        <li>
+          <i class="icon-pinterest"></i
+          ><a class="icons__link" href="#"
+            >Pinterest <br />
+            Посетить Pinterest</a
+          >
+        </li>
+        <li>
+          <i class="icon-windows8"></i
+          ><a class="icons__link" href="#"
+            >Windiws 8 <br />
+            Microsoft Windows 8</a
+          >
+        </li>
+        <li>
+          <i class="icon-github"></i
+          ><a class="icons__link" href="#">
+            Github <br />
+            Посетить Github</a
+          >
+        </li>
+        <li>
+          <i class="icon-css3"></i
+          ><a class="icons__link" href="#">
+            CSS3 <br />
+            Взгляните на CSS3</a
+          >
+        </li>
+        <li>
+          <i class="icon-html-five"></i
+          ><a class="icons__link" href="#">
+            HTML5 <br />
+            Узрите HTML5</a
+          >
+        </li>
+        <li>
+          <i class="icon-rss"></i
+          ><a class="icons__link" href="#"
+            >RSS <br />
+            Подпишитесь по RSS</a
+          >
+        </li>
+        <li>
+          <i class="icon-cogs"></i
+          ><a class="icons__link" href="#"
+            >Настройки <br />
+            Перейти к настройкам</a
+          >
+        </li>
+        <li>
+          <i class="icon-home3"></i
+          ><a class="icons__link" href="#"
+            >Главная <br />
+            На главную страницу</a
+          >
+        </li>
+        <li>
+          <i class="icon-download3"></i
+          ><a class="icons__link" href="#">
+            Скачать <br />
+            Размер: 32.4 кб</a
+          >
+        </li>
+        <li>
+          <i class="icon-skype"></i
+          ><a class="icons__link" href="#"
+            >Skype <br />
+            Позвонить по Skype</a
+          >
+        </li>
+        <li>
+          <i class="icon-IE"></i
+          ><a class="icons__link" href="#"
+            >Explorer 10 <br />
+            Установить IE 10</a
+          >
+        </li>
+        <li>
+          <i class="icon-chrome"></i
+          ><a class="icons__link" href="#"
+            >Google Chrome <br />
+            Установить Chrome</a
+          >
+        </li>
+        <li>
+          <i class="icon-firefox"></i
+          ><a class="icons__link" href="#"
+            >Mozilla Frirefox <br />
+            Установить Frirefox</a
+          >
+        </li>
+        <li>
+          <i class="icon-opera"></i
+          ><a class="icons__link" href="#"
+            >Opera <br />
+            Установить Opera</a
+          >
+        </li>
+        <li>
+          <i class="icon-safari"></i
+          ><a class="icons__link" href="#">
+            Apple Safari <br />
+            Установить Safari</a
+          >
+        </li>
+        <li>
+          <i class="icon-steam2"></i
+          ><a class="icons__link" href="#"
+            >Steam клиент <br />
+            Установить Steam</a
+          >
+        </li>
+        <li>
+          <i class="icon-appleinc"></i
+          ><a class="icons__link" href="#"
+            >Apple <br />
+            Перейти на сайт</a
+          >
+        </li>
+        <li>
+          <i class="icon-film"></i
+          ><a class="icons__link" href="#"
+            >Видеозаписи <br />
+            Посмотреть видео</a
+          >
+        </li>
+        <li>
+          <i class="icon-images"></i
+          ><a class="icons__link" href="#"
+            >Галерея <br />
+            Посмотреть галерею</a
+          >
+        </li>
+        <li>
+          <i class="icon-music"></i
+          ><a class="icons__link" href="#"
+            >Аудиозаписи <br />
+            Прослушать аудио</a
+          >
+        </li>
+        <li>
+          <i class="icon-user"></i
+          ><a class="icons__link" href="#"
+            >ПРофиль <br />
+            Перейти в профиль</a
+          >
+        </li>
+      </ul>
+    </div>
+  </body>
+</html>
