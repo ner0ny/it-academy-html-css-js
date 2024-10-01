@@ -6,15 +6,15 @@
 
 ### Задание № 1
 
-1. Проект [animal-language](./Task1/animal-language). Ссылка на [работу](https://ner0nysad.github.io/it-academy-html-css-js/Task1/animal-language/animal-language.html).
+1. Проект [animal-language](./Task1/animal-language). Ссылка на [работу](https://ner0ny.github.io/it-academy-html-css-js/Task1/animal-language/animal-language.html).
 
 &emsp;Создать HTML-страничку animal-language.html, перенести в неё нижеследующий текст и, используя теги h1, h2, h3, p, ol, li, разметить текст так, чтобы в результате получилось как на [картинке](https://prnt.sc/-crqyoO-Zbwi).
 
-2. Проект [precept](./Task1/precept). Ссылка на [работу](https://ner0nysad.github.io/it-academy-html-css-js/Task1/precept/precept.html).
+2. Проект [precept](./Task1/precept). Ссылка на [работу](https://ner0ny.github.io/it-academy-html-css-js/Task1/precept/precept.html).
 
 &emsp;Создать HTML-страничку precept.html, перенести в неё нижеследующий текст. Используйте подходящий тег заголовков h1-h6, теги br, p, i, em, strong, b, hr, small (необязательно все перечисленные) и разметьте текст так, чтобы получить результат как на [картинке](https://prnt.sc/pNdHB77kWnP5). Обратите внимание, что размер шрифта фамилии автора отличается от остального текста. Так же можно заметить, что тег hr в разных браузерах может отображаться по-разному.
 
-3. Проект [other-tags](./Task1/other-tags). Ссылка на [работу](https://ner0nysad.github.io/it-academy-html-css-js/Task1/other-tags/other-tags.html).
+3. Проект [other-tags](./Task1/other-tags). Ссылка на [работу](https://ner0ny.github.io/it-academy-html-css-js/Task1/other-tags/other-tags.html).
 
 &emsp;Есть множество тегов, которые мы не будем рассматривать отдельно в нашем курсе или использовать совсем редко, но которые знать не помешает. Вот они:    
 &emsp;1. dl, dt, dd    
@@ -32,11 +32,11 @@
 
 &emsp;Попробуйте найти по ним информацию (например на htmlbook.ru, html5book.ru или webref.ru), разобраться как они себя ведут и для чего необходимы. После сверстать какой-либо осмысленный текст использованием исходных тегов.
 
-4. Проект [diary](./Task1/diary). Ссылка на [работу](https://ner0nysad.github.io/it-academy-html-css-js/Task1/diary/diary.html).
+4. Проект [diary](./Task1/diary). Ссылка на [работу](https://ner0ny.github.io/it-academy-html-css-js/Task1/diary/diary.html).
 
 &emsp;Создать HTML-страничку diary.html, перенести туда нижеследующий текст и отформатировать текст так, чтобы получить результат как на [картинке](https://prnt.sc/WR6aREx9ii9n). Ссылки должны открываться в новой вкладке браузера и могут вести куда угодно; следует заполнить атрибуты title для ссылок. Все виды кавычек и знак копирайта заменить мнемониками.
 
-5. Проект [vizbor](./Task1/vizbor). Ссылка на [работу](https://ner0nysad.github.io/it-academy-html-css-js/Task1/vizbor/vizbor.html).
+5. Проект [vizbor](./Task1/vizbor). Ссылка на [работу](https://ner0ny.github.io/it-academy-html-css-js/Task1/vizbor/vizbor.html).
 
 &emsp;Создать 2 HTML-странички vizbor.html и vechno-student.html.
 &emsp;Страница vechno-student.html: 
@@ -44,44 +44,44 @@
 &emsp;Страница vizbor.html:
 &emsp;Отформатировать страницу по образцу, приведенному ниже. Ссылки должны вести на первую страницу (vechno-student.html), прокрутку к нужному месту страницы (первый и последний абзацы) реализовать любым из двух изученных способов (можно обоими способами). Страница vechno-student.html должна открываться в новой вкладке браузера.
 
-6. Проект [formulas](./Task1/formulas). Ссылка на [работу](https://ner0nysad.github.io/it-academy-html-css-js/Task1/formulas/formulas.html).
+6. Проект [formulas](./Task1/formulas). Ссылка на [работу](https://ner0ny.github.io/it-academy-html-css-js/Task1/formulas/formulas.html).
 
 &emsp;Используя ранее изученные теги разметки и спецсимволы (рабочая тетрадь стр. 8-11 или сайт unicode-table.com) создайте страничку, которая выглядела бы [следующим образом](https://prnt.sc/tWcXRvL-0IcD)
 
 ### Задание № 2
 
-1. Проект [diary2](./Task2/diary2). Ссылка на [работу](https://ner0nysad.github.io/it-academy-html-css-js/Task2/diary2/diary2.html).
+1. Проект [diary2](./Task2/diary2). Ссылка на [работу](https://ner0ny.github.io/it-academy-html-css-js/Task2/diary2/diary2.html).
 
 &emsp;Необходимо создать HTML-страничку diary2.html, перенести содержимое страницы diary.html и, не меняя сам текст, отформатировать его так, чтобы получить результат как на [картинке](https://prnt.sc/20F6I4LDz6Yz). Для этого используем картинку “star.gif” и “home.gif”. Для звезды указываем размеры картинки 166х157. А “home.gif” вставляем используя data:url. Для всех картинок не забываем заполнять атрибуты title и alt и нужно уметь объяснить разницу между этими атрибутами. Для списков заменяем атрибуты (type) на стили и текст форматируем с помощью стилевых свойств. Т.е. в коде не должно оставаться атрибутов, которые можно заменить стилевыми свойствами. Отдельно в качестве тренировки курсивное и жирное начертание текста (кроме заголовков h1-h2) выполнить с помощью стилевых свойств.
 
-2. Проект [childbook](./Task2/childbook). Ссылка на [работу](https://ner0nysad.github.io/it-academy-html-css-js/Task2/childbook/childbook.html).
+2. Проект [childbook](./Task2/childbook). Ссылка на [работу](https://ner0ny.github.io/it-academy-html-css-js/Task2/childbook/childbook.html).
 
 &emsp;Нужно создать страницу childbook.html.
 &emsp;Из файла childbook.png вырезать изображения, используя любой доступный графический редактор изображений и преобразовать их в оптимальный формат.
 &emsp;Сверстать текст с использованием этих изображений.
 &emsp;В HTML-комментариях обосновать выбранные форматы изображений.
 
-3. Проект [figure](./Task2/figure). Ссылка на [работу](https://ner0nysad.github.io/it-academy-html-css-js/Task2/figure/figure.html).
+3. Проект [figure](./Task2/figure). Ссылка на [работу](https://ner0ny.github.io/it-academy-html-css-js/Task2/figure/figure.html).
 
 &emsp;Необходимо найти информацию про теги figure и figcaption. Сделать Html-страничку с описанием данных тегов и примерами использования. В конце привести минусы и плюсы использования данных тегов в сравнении с обычной вставкой изображений.
 
 ### Задание № 3
 
-1. Проект [simon-garfunkel](./Task3/simon-garfunkel). Ссылка на [работу](https://ner0nysad.github.io/it-academy-html-css-js/Task3/simon-garfunkel/simon-garfunkel.html).
+1. Проект [simon-garfunkel](./Task3/simon-garfunkel). Ссылка на [работу](https://ner0ny.github.io/it-academy-html-css-js/Task3/simon-garfunkel/simon-garfunkel.html).
 
 &emsp;Создать HTML-страничку simon-garfunkel.html, перенести туда нижеследующий текст и отформатировать его так, чтобы получить результат как на [картинке](https://prnt.sc/VpWoLvIBoigK). Для этого используем такие стилевые свойства, как text-indent, border, min-height, width, color, text-align, list-style-type (не использовать padding и margin) и теги h1, h2, p, div, span, ul, li. Для лучшего понимания попробуйте задать цвета разными изученными способами.
 
-2. Проект [external-fonts](./Task3/external-fonts). Ссылка на [работу](https://ner0nysad.github.io/it-academy-html-css-js/Task3/external-fonts/external-fonts.html).
+2. Проект [external-fonts](./Task3/external-fonts). Ссылка на [работу](https://ner0ny.github.io/it-academy-html-css-js/Task3/external-fonts/external-fonts.html).
 
 &emsp;Создать страницу external-fonts.html перенести туда содержимое со страницы vechno-student.html, затем добавить на созданную страницу нижеследующий текст и отформатировать его используя шрифты из веб-сервиса Google Fonts, перейдя по ссылке - https://goo.gl/gF7Wsr или отыскав шрифты самостоятельно. Для текста описания использовать шрифт «PT Serif», а для текста гимна использовать шрифт «Marck Script».
 
-3. Проект [font-squirrel](./Task3/font-squirrel). Ссылка на [работу](https://ner0nysad.github.io/it-academy-html-css-js/Task3/font-squirrel/font-squirrel.html).
+3. Проект [font-squirrel](./Task3/font-squirrel). Ссылка на [работу](https://ner0ny.github.io/it-academy-html-css-js/Task3/font-squirrel/font-squirrel.html).
 
 &emsp;Скачать из папки заданий или перейдя по ссылке файл шрифта afuturaorto.ttf. Используя веб-сервис Font Squierrel сгенерировать набор для вставки на страницу. Создайте html страницу с произвольным текстом, содержащим заголовки и абзацы (как минимум 2-3 полноценного текста). Подключить сгенерированный веб-сервисом шрифт на созданную страницу и отформатировать текст с его применением. Попробуйте ввести жирные и курсивные начертания для демонстрации возможностей шрифта.
 
 ### Задание № 4
 
-1. Проект [centered-block](./Task4/centered-block). Ссылка на [работу](https://ner0nysad.github.io/it-academy-html-css-js/Task4/centered-block/centered-block.html).
+1. Проект [centered-block](./Task4/centered-block). Ссылка на [работу](https://ner0ny.github.io/it-academy-html-css-js/Task4/centered-block/centered-block.html).
 
 &emsp;Создать страницу centered-block.html и используя h1 и div отформатировать страницу как на [картинке](https://prnt.sc/k_LnYZwS9g9V). Для фона использовать изображение cat-bg.gif из папки задания. 
 &emsp;Параметры для div следующие:    
@@ -90,7 +90,7 @@
 &emsp;3. внешний отступ сверху = 150px;    
 &emsp;4. центрирован по ширине страницы.
 
-2. Проект [overflow-test](./Task4/overflow-test). Ссылка на [работу](https://ner0nysad.github.io/it-academy-html-css-js/Task4/overflow-test/overflow-test.html).
+2. Проект [overflow-test](./Task4/overflow-test). Ссылка на [работу](https://ner0ny.github.io/it-academy-html-css-js/Task4/overflow-test/overflow-test.html).
 
 &emsp;Создать страницу overflow-test.html добавить в нее 3 блока div с одинаковым текстом (см. ниже) и отформатировать так, чтобы получить результат как на [картинке](https://prnt.sc/6z3bq_qXkAdy).    
 &emsp;Общие параметры для div:    
@@ -102,21 +102,21 @@
 &emsp;6. центрирован по ширине страницы;    
 &emsp;7. внутри для текста использован тег p, ul и li не использованы.
 
-3. Проект [background-size](./Task4/background-size). Ссылка на [работу](https://ner0nysad.github.io/it-academy-html-css-js/Task4/background-size/background-size.html).
+3. Проект [background-size](./Task4/background-size). Ссылка на [работу](https://ner0ny.github.io/it-academy-html-css-js/Task4/background-size/background-size.html).
 
 &emsp;Почитать про свойство  background-size , придумать и сверстать примеры с использованием масштабируемого фонового изображения, для которого будет использована полноцветная фотография, а не повторяющийся элемент или маленькая картинка. Т.е. примеры должны показать поведение фотографии при каждом значении данного свойства.
 
-4. Проект [poker](./Task4/poker). Ссылка на [работу](https://ner0nysad.github.io/it-academy-html-css-js/Task4/poker/poker.html).
+4. Проект [poker](./Task4/poker). Ссылка на [работу](https://ner0ny.github.io/it-academy-html-css-js/Task4/poker/poker.html).
 
 &emsp;Создаем страницу poker.html, добавляем из папки задания изображения cards.png и frame.png. Необходимо вырезать нужные фрагменты из изображения frame.png и сверстать резиновый фон. Размеры рамки должны зависеть от количества текста в ней и от размеров окна браузера (т.е. рамка тянется на всю ширину окна браузера, и имеет такую высоту, чтобы вместить содержащийся в ней текст). 
 &emsp;Вставить заголовок и текст. Добавить блок с зеленой границей и внутренними отступами 20px. В этом контейнере создать 5 блоков (div) высотой 190px и шириной 140px и задать им стиль display: inline-block.Добавить для этих блоков в качестве фонового изображения спрайт cards.png, но указав при этом такие значения background-position, чтобы получилась необходимая комбинация карт.
 &emsp;Голубой цвет (cyan) - это фоновый цвет для тега body, а не свойство border.
 
-5. Проект [table-test](./Task4/table-test). Ссылка на [работу](https://ner0nysad.github.io/it-academy-html-css-js/Task4/table-test/table-test.html).
+5. Проект [table-test](./Task4/table-test). Ссылка на [работу](https://ner0ny.github.io/it-academy-html-css-js/Task4/table-test/table-test.html).
 
 &emsp;Создать в проекте новую страницу table-test.html и сверстать в ней таблицу, чтобы получить результат как на [картинке](https://prnt.sc/lD3DpFasQeDY). Таблица растягивается на весь экран браузера по ширине. Текст может отличаться. Используемые цвета #888888, #ffffff и blue, внутренние отступы для ячеек равны 5px.
 
-6. Проект [calendar](./Task4/calendar). Ссылка на [работу](https://ner0nysad.github.io/it-academy-html-css-js/Task4/calendar/calendar.html).
+6. Проект [calendar](./Task4/calendar). Ссылка на [работу](https://ner0ny.github.io/it-academy-html-css-js/Task4/calendar/calendar.html).
 
 &emsp;Создаем страницу calendar.html и, используя таблицу, верстаем [пример](https://prnt.sc/hb485j3kkw_h) календарного месяца. 
 &emsp;Используемые цвета и параметры:    
@@ -130,15 +130,15 @@
 &emsp;8. цвет фона для даты текущего месяца – #eeeeee;    
 &emsp;9. цвет фона для даты выходного дня – #787878;
 
-7. Проект [poker2](./Task4/poker2). Ссылка на [работу](https://ner0nysad.github.io/it-academy-html-css-js/Task4/poker2/poker2.html).
+7. Проект [poker2](./Task4/poker2). Ссылка на [работу](https://ner0ny.github.io/it-academy-html-css-js/Task4/poker2/poker2.html).
 
 &emsp;Создаем копию страницы poker.html и называем poker-2.html. Создаем в теге head новый парный тег style и переносим туда все стили, используя классы, селекторы тегов и контекстные селекторы для элементов, используемых ранее в верстке. Т.е. визуально результат в браузере не должен измениться, а вот html-код должен стать чистым, без ненужных атрибутов, в том числе и style.
 
-8. Проект [table-test-2](./Task4/table-test-2). Ссылка на [работу](https://ner0nysad.github.io/it-academy-html-css-js/Task4/table-test-2/table-test-2.html).
+8. Проект [table-test-2](./Task4/table-test-2). Ссылка на [работу](https://ner0ny.github.io/it-academy-html-css-js/Task4/table-test-2/table-test-2.html).
 
 &emsp;Создаем копию страницы table-test.html, называем ее table-test-2.html соответственно. Создаем в теге head новый тег style и переносим туда все стили, используя классы и контекстные селекторы для элементов в верстке. Так же дополнительно верстаем ниже 3 (три!) таблицы из файла [color-tables.png](https://prnt.sc/iGJXts87lS4P) (смотреть в папке с заданиями). Код цвета из файла можно получить в любом графическом редакторе.
 
-9. Проект [chess](./Task4/chess). Ссылка на [работу](https://ner0nysad.github.io/it-academy-html-css-js/Task4/chess/chess.html).
+9. Проект [chess](./Task4/chess). Ссылка на [работу](https://ner0ny.github.io/it-academy-html-css-js/Task4/chess/chess.html).
 
 &emsp;Создаем страницу chess.html и, используя одну таблицу, верстаем [пример](https://prnt.sc/FAgM9u2zgXam) шахматной доски. Для шахмат используем спрайт chess.png из папки заданий. В стилях обращение к спрайту должно быть одним единственным запросом для всех видов шахмат. Продумать верстку так, чтобы изменяя только классы в верстке, не трогая стилей, можно было построить любую шахматную комбинацию.
 &emsp;Используемые цвета и параметры:    
@@ -148,52 +148,52 @@
 
 ### Задание № 5
 
-1. Проект [color-blocks-div](./Task5/color-blocks-div). Ссылка на [работу](https://ner0nysad.github.io/it-academy-html-css-js/Task5/color-blocks-div/color-blocks-div.html).
+1. Проект [color-blocks-div](./Task5/color-blocks-div). Ссылка на [работу](https://ner0ny.github.io/it-academy-html-css-js/Task5/color-blocks-div/color-blocks-div.html).
 
 &emsp;Создаем страницу color-blocks-div.html. Сверстать макет из [рисунка](https://prnt.sc/1ccKuV22ausl) с помощью блоков. Св-во overflow: hidden; не применять. Использовать только 7 последовательных div’ов (никаких вложенностей)!
 &emsp;Важно: Цветные блоки должны занимать всю площадь (ширину и высоту) viewport’a.
 
-2. Проект [color-blocks-table](./Task5/color-blocks-table). Ссылка на [работу](https://ner0nysad.github.io/it-academy-html-css-js/Task5/color-blocks-table/color-blocks-table.html).
+2. Проект [color-blocks-table](./Task5/color-blocks-table). Ссылка на [работу](https://ner0ny.github.io/it-academy-html-css-js/Task5/color-blocks-table/color-blocks-table.html).
 
 &emsp;Создаем страницу color-blocks-table.html.html. Сверстать макет из [рисунка](https://prnt.sc/1ccKuV22ausl) с помощью таблиц. Св-во overflow: hidden; не применять.
 &emsp;Важно: Цветные блоки должны занимать всю площадь (ширину и высоту) viewport’a.
 
-3. Проект [first-layout-table](./Task5/first-layout-table). Ссылка на [работу](https://ner0nysad.github.io/it-academy-html-css-js/Task5/first-layout-table/first-layout-table.html).
+3. Проект [first-layout-table](./Task5/first-layout-table). Ссылка на [работу](https://ner0ny.github.io/it-academy-html-css-js/Task5/first-layout-table/first-layout-table.html).
 
 &emsp;Создаем страницу first-layout-table.html. Необходимо сверстать [макет](https://prnt.sc/apl9bbiVUqoh) с помощью таблиц.
 &emsp;Верстка должна быть резиновой — при изменении ширины окна браузера основная колонка должна растягиваться; ширина колонки с меню должна быть фиксированной и в 250px шириной. Гиперссылки могут вести куда угодно. 
 &emsp;Тексты могут быть произвольными, но достаточными, чтобы можно было оценить макет на широком экране.
 &emsp;Нет необходимости растягивать верстку по высоте viewport’a.
 
-4. Проект [first-layout-div](./Task5/first-layout-div). Ссылка на [работу](https://ner0nysad.github.io/it-academy-html-css-js/Task5/first-layout-div/first-layout-div.html).
+4. Проект [first-layout-div](./Task5/first-layout-div). Ссылка на [работу](https://ner0ny.github.io/it-academy-html-css-js/Task5/first-layout-div/first-layout-div.html).
 
 &emsp;Создаем страницу first-layout-div.html. Необходимо сверстать [макет](https://prnt.sc/apl9bbiVUqoh) с помощью блоков.
 &emsp;Верстка должна быть резиновой — при изменении ширины окна браузера основная колонка должна растягиваться; ширина колонки с меню должна быть фиксированной и в 250px шириной. Гиперссылки могут вести куда угодно. Тексты могут быть произвольными, но достаточными, чтобы можно было оценить макет на широком экране.
 Нет необходимости растягивать верстку по высоте viewport’a.
 
-5. Проект [news-section](./Task5/news-section). Ссылка на [работу](https://ner0nysad.github.io/it-academy-html-css-js/Task5/news-section/news-section.html).
+5. Проект [news-section](./Task5/news-section). Ссылка на [работу](https://ner0ny.github.io/it-academy-html-css-js/Task5/news-section/news-section.html).
 
 &emsp;Создать страницу news-section.html и сверстать максимально приближенно к макетам ([Максимальная ширина 960px](https://prnt.sc/cqlsblTi-YcP), [Максимальная ширина 320px](https://prnt.sc/FJm5Ix-e7qm1)). Текст и картинки брать произвольные, размер картинок не больше 60px на 60px. Максимальная ширина блока 960px, минимальная ширина 320px и центрирован по горизонтали. Минимальная ширина одной новости = 300px. 
 
-6. Проект [html5-logo](./Task5/html5-logo). Ссылка на [работу](https://ner0nysad.github.io/it-academy-html-css-js/Task5/html5-logo/html5-logo.html).
+6. Проект [html5-logo](./Task5/html5-logo). Ссылка на [работу](https://ner0ny.github.io/it-academy-html-css-js/Task5/html5-logo/html5-logo.html).
 
 &emsp;Копируем файл html5-logo.html.
 &emsp;Не меняя верстки и используя исходные фигуры и изображения добиваемся верстки как на [макете](https://prnt.sc/BDQAkRsTCk0M). Блок “result” должен быть центрирован по горизонтали и иметь внешний отступ сверху 100 пикселей. Для расположения элементов (кроме блока “result”) на странице использовать схему позиционирования “position: absolute;” Верстку и классы не менять, стили только добавлять!
 
-6. Проект [position-images](./Task5/position-images). Ссылка на [работу](https://ner0nysad.github.io/it-academy-html-css-js/Task5/position-images/position-images.html).
+6. Проект [position-images](./Task5/position-images). Ссылка на [работу](https://ner0ny.github.io/it-academy-html-css-js/Task5/position-images/position-images.html).
 
 &emsp;Создать страницу position-images.html. 
 Разместить нижеследующий текст и из папки images изображения biohazard.png, man-and-woman.png, no-smoking.png, yin-yang.png. Сверстать проект по [макету](https://prnt.sc/jUION3HQLMJR). До изображений — многострочный текст на всю ширину окна браузера; изображения центрированы горизонтально и примыкают к тексту снизу, т.е. при сужении окна браузера высота текста автоматически увеличивается, а  изображения смещаются вниз, оставаясь при этом отцентрованными по горизонтали. Изображения должны быть размещены с использованием абсолютного позиционирования (position: absolute), координаты изображений должны быть заданы в пикселях.  
 &emsp;Так же необходимо добавить блок шириной 200px c текстом “Здесь могла быть Ваша реклама!!!” и расположить его справа на 20px и сверху на 10% так, чтобы при прокрутке страницы блок все время находился в заданном месте. 
 &emsp;Ну и напоследок добавить “якорь” внизу страницы (с помощью свойства position) на первый абзац, используя для этого ссылку, для которой будет использовано изображение to-top.png как фон. Располагаться якорь должен будет в 20px от нижней границы viewport’a и центрирован по горизонтали.
 
-7. Проект [blank-slider](./Task5/blank-slider). Ссылка на [работу](https://ner0nysad.github.io/it-academy-html-css-js/Task5/blank-slider/blank-slider.html).
+7. Проект [blank-slider](./Task5/blank-slider). Ссылка на [работу](https://ner0ny.github.io/it-academy-html-css-js/Task5/blank-slider/blank-slider.html).
 
 &emsp;Создать страницу blank-slider.html и сверстать заготовку для слайдера по [макету](https://prnt.sc/fS37ZAKSXP0t).
 
 ### Задание № 6
 
-1. Проект [css-chess](./Task6/css-chess). Ссылка на [работу](https://ner0nysad.github.io/it-academy-html-css-js/Task6/css-chess/css-chess.html).
+1. Проект [css-chess](./Task6/css-chess). Ссылка на [работу](https://ner0ny.github.io/it-academy-html-css-js/Task6/css-chess/css-chess.html).
 
 &emsp;Создать файл css-chess.html.
 &emsp;В файле HTML-вёрстка простой таблицы 10x10.
@@ -201,82 +201,82 @@
 &emsp;Селекторы псевдоклассов :not, :nth-(i) и :nth-(an+b) не использовать.
 &emsp;Селекторы псевдоклассов :first-, :last-, :nth-(odd) и :nth-(even) использовать можно. Не использовать никаких хаков и !important.
 
-2. Проект [pagination](./Task6/pagination). Ссылка на [работу](https://ner0nysad.github.io/it-academy-html-css-js/Task6/pagination/pagination.html).
+2. Проект [pagination](./Task6/pagination). Ссылка на [работу](https://ner0ny.github.io/it-academy-html-css-js/Task6/pagination/pagination.html).
 
 &emsp;Создать страницу pagination.html и сверстать [макет](https://prnt.sc/SfBeu-VpftiZ). Для верстки использовать список и ссылки внутри элементов списка. Используемые цвета #3F3F3F и #FF6600. При наведении на ссылку она становится оранжевой. Обратите внимание на шрифт (просто подобрать похожий).
 
-3. Проект [blank-menu](./Task6/blank-menu). Ссылка на [работу](https://ner0nysad.github.io/it-academy-html-css-js/Task6/blank-menu/blank-menu.html).
+3. Проект [blank-menu](./Task6/blank-menu). Ссылка на [работу](https://ner0ny.github.io/it-academy-html-css-js/Task6/blank-menu/blank-menu.html).
 
 &emsp;Создать страницу blank-menu.html и сверстать максимально близко к [макету](https://prnt.sc/X2PB37VgPoDg). Для выпадающих меню использовать position: absolute. Иконки найти похожие, сделать из них спрайт и добавить в меню через :before и background-position. Вид ссылок Портфолио, Подменю 2, Уровень 3 меню и Подменю 6 - это как выглядит ссылка меню при наведении на нее мышкой.
 
-4. Проект [foto-border](./Task6/foto-border). Ссылка на [работу](https://ner0nysad.github.io/it-academy-html-css-js/Task6/foto-border/foto-border.html).
+4. Проект [foto-border](./Task6/foto-border). Ссылка на [работу](https://ner0ny.github.io/it-academy-html-css-js/Task6/foto-border/foto-border.html).
 
 &emsp;Создать страницу foto-border.html. 
 &emsp;Используя произвольную картинку небольших размеров, которая обернута только одним тегом div, необходимо получить результат максимально близкий к [макету](https://prnt.sc/JWEdHw76Lgg1) (т.е. верстку не трогаем, дополнительных контейнеров не создаем, элементы не дублируем…).
 &emsp;Плюсом будет если сверстать несколькими вариантами…
 
-5. Проект [visual-steps](./Task6/visual-steps). Ссылка на [работу](https://ner0nysad.github.io/it-academy-html-css-js/Task6/visual-steps/visual-steps.html).
+5. Проект [visual-steps](./Task6/visual-steps). Ссылка на [работу](https://ner0ny.github.io/it-academy-html-css-js/Task6/visual-steps/visual-steps.html).
 
 &emsp;Создать страницу visual-steps.html. 
 &emsp;Используя список (ul), необходимо получить результат максимально близкий к [макету](https://prnt.sc/KxJzBB09tTf6). Количество «шагов» может варьироваться (шаги с зеленым фоном – удачно пройденные, с серым фоном – еще не пройденные, с фиолетовым – текущий, т.е. активный шаг). Количество «шагов» может вариьроваться.
 &emsp;Плюсом будет если сверстать несколькими вариантами…
 
-6. Проект [answers](./Task6/answers). Ссылка на [работу](https://ner0nysad.github.io/it-academy-html-css-js/Task6/answers/answers.html).
+6. Проект [answers](./Task6/answers). Ссылка на [работу](https://ner0ny.github.io/it-academy-html-css-js/Task6/answers/answers.html).
 
 &emsp;Сверстать [макет](https://prnt.sc/0cv8QHz8IsDd) любым возможным для вас способом. Макет представляет из себя вопрос от одного пользователя и ответы от других. Ответов на вопрос может быть от 1 до 5 с разным количеством текста в каждом ответе. Обойтись без фоновых изображений, для аватаров использовать изображения размером 50х50 пикселей.
 
 ### Задание № 7
 
-1. Проект [one-block](./Task7/one-block). Ссылка на [работу](https://ner0nysad.github.io/it-academy-html-css-js/Task7/one-block/one-block.html).
+1. Проект [one-block](./Task7/one-block). Ссылка на [работу](https://ner0ny.github.io/it-academy-html-css-js/Task7/one-block/one-block.html).
 
 &emsp;Создаем страницу one-block.html. Добавляем на страницу тег div с классом one-block и прописываем ему стили, чтобы для разных режимов экрана данный блок соответствовал макетам([Разрешение больше 1280px](https://prnt.sc/3brhX4AJO0eR), [Разрешение меньше 1280px](https://prnt.sc/km8mISJxF3_8), [Разрешение меньше 1024px](https://prnt.sc/dR4Z8eX06Qxp), [Разрешение больше 1280px](https://prnt.sc/9hQpyH1h0cgp), [Разрешение меньше 768px](https://prnt.sc/eomwh0b1_9Vy), [Разрешение меньше 640px](https://prnt.sc/2Fs8zyPt8fLR), [Разрешение меньше 480px](https://prnt.sc/EY-7j6kNrbLi), [Разрешение меньше 320px](https://prnt.sc/Eu-RT1pzRnTV)). 
 Начальный и максимальный размер 400х400px с внешними отступами 50px и центрированием по горизонтали (не нужно по вертикали).
 !ВАЖНО При изменении экрана до 320 пикселей по ширине не должно быть горизонтального скролла, нельзя скрывать контент используя св-во overflow: hidden. Запрещено добавлять брейкпоинты, не указанные в задании!
 
-2. Проект [adapt-page](./Task7/adapt-page). Ссылка на [работу](https://ner0nysad.github.io/it-academy-html-css-js/Task7/adapt-page/adapt-page.html).
+2. Проект [adapt-page](./Task7/adapt-page). Ссылка на [работу](https://ner0ny.github.io/it-academy-html-css-js/Task7/adapt-page/adapt-page.html).
 
 &emsp;Создаем страницу adapt-page.html. 
 &emsp;Необходимо сверстать максимально приближенный вариант к макетам ([макет1](https://prnt.sc/_wX-z5nyqcWC) и [макет2](https://prnt.sc/QwQlQMTu5LaX)). Тексты и изображения можно использовать произвольные. Максимальная ширина контента 980px и центрируется по горизонтали, но при этом фоновый цвет заголовка и футера должны растягиваться на 100% ширины экрана. Блоки с превью новостей должны быть справа и слева выровнены по контенту. Обращаем внимание на текст в футере, а именно на его положение.
 &emsp;При ширине экрана 768px и ниже сайт должен переходить к виду второго макета. Минимальная ширина сайта 320px. При растягивании браузера на любые расширения больше 320px, не должен появляться горизонтальный скролл (вообще!). Использовать “overflow: hidden;” запрещается.
 
-3. Проект [adapt-fotos](./Task7/adapt-fotos). Ссылка на [работу](https://ner0nysad.github.io/it-academy-html-css-js/Task7/adapt-fotos/adapt-fotos.html).
+3. Проект [adapt-fotos](./Task7/adapt-fotos). Ссылка на [работу](https://ner0ny.github.io/it-academy-html-css-js/Task7/adapt-fotos/adapt-fotos.html).
 
 &emsp;Создаем страницу adapt-fotos.html и верстаем по макетам ([Разрешение больше 980px](https://prnt.sc/PFFx5MfWDwlu), [Разрешение меньше 980px](https://prnt.sc/hD5SGZrKs13Y), [Разрешение меньше 768px](https://prnt.sc/32Ew6p7v7a7b), [Разрешение меньше 480px](https://prnt.sc/WN_hCeUXOnJ8)) , добавив произвольные фото. Максимальная ширина блока галереи 1200 пикселей, минимальная ширина 320px и центрирован по горизонтали. Не забываем заполнять атрибуты для изображений.
 
 ### Задание № 8
 
-1. Проект [form](./Task8/form). Ссылка на [работу](https://ner0nysad.github.io/it-academy-html-css-js/Task8/form/form.html).
+1. Проект [form](./Task8/form). Ссылка на [работу](https://ner0ny.github.io/it-academy-html-css-js/Task8/form/form.html).
 
 &emsp;Создаем страницу form.html. Необходимо сверстать форму обратной связи по [макету](https://prnt.sc/yav43aCWQDIj) (кроме выравнивания текста никаких стилей не использовать). Кнопка «отправить» «задизейблена».
 
-2. Проект [form-styled](./Task8/form-styled). Ссылка на [работу](https://ner0nysad.github.io/it-academy-html-css-js/Task8/form-styled/form-styled.html).
+2. Проект [form-styled](./Task8/form-styled). Ссылка на [работу](https://ner0ny.github.io/it-academy-html-css-js/Task8/form-styled/form-styled.html).
 
 &emsp;Создаем страницу form-styled.html и копируем html-разметку и стили из прошлого задания (form) и удалив/оставив нужные поля меняем/добавляем стили так, чтобы максимально приблизить верстку к [макету](https://prnt.sc/h1jHNrefBM1L). Поле email в макете показывает состояние :focus для поля input. Иконки и шрифты подобрать максимально близкие к макету.
 Так же при добавлении класса-модификатора на форму (тег form), нужно, чтобы поля меняли свое [положение](https://prnt.sc/BSNZabBO30W9)
 
-3. Проект [login-form](./Task8/login-form). Ссылка на [работу](https://ner0nysad.github.io/it-academy-html-css-js/Task8/login-form/login-form.html).
+3. Проект [login-form](./Task8/login-form). Ссылка на [работу](https://ner0ny.github.io/it-academy-html-css-js/Task8/login-form/login-form.html).
 
 &emsp;Сверстать страницу с формой авторизации как на макеах ([Рис1](https://prnt.sc/ObnfKWDwkryK) и [Рис2](https://prnt.sc/IB-mUFAeP9Kf)). Для фона body использовать картинку, имитирующую картонную бумагу или доску. Больше никаких изображений в проекте быть не должно. Круглая кнопка со стрелочкой должна иметь стили для состояний :focus и :active.
 
 ### Задание № 9
 
-1. Проект [video-gallery](./Task9/video-gallery). Ссылка на [работу](https://ner0nysad.github.io/it-academy-html-css-js/Task9/video-gallery/video-gallery.html).
+1. Проект [video-gallery](./Task9/video-gallery). Ссылка на [работу](https://ner0ny.github.io/it-academy-html-css-js/Task9/video-gallery/video-gallery.html).
 
 &emsp;Создаем страницу video-gallery.html
 &emsp;На этой странице разместить краткое текстовое описание и 4-6 роликов с видео-сервиса youtube. Тематику видеороликов выбрать самостоятельно, но осторожно. Сделать так, чтобы каждый видеоролик возможно было посмотреть как на сверстанной странице, так и иметь возможность открыть в отдельной вкладке браузера страницу видео-сервиса youtube.com с данным видеороликом. Не забудьте сделать видео адаптивным!
 
-2. Проект [audio-tag](./Task9/audio-tag). Ссылка на [работу](https://ner0nysad.github.io/it-academy-html-css-js/Task9/audio-tag/audio-tag.html).
+2. Проект [audio-tag](./Task9/audio-tag). Ссылка на [работу](https://ner0ny.github.io/it-academy-html-css-js/Task9/audio-tag/audio-tag.html).
 
 &emsp;Создаем страницу audio-tag.html На этой странице разместить краткое текстовое описание какой-либо группы и сверстать список от 3 до 5 песен. Группу выбрать самостоятельно, но осторожно. Сделать так, чтобы каждую аудиозапись возможно было прослушать и скачать отдельно.
 
-3. Проект [icon-fonts](./Task9/icon-fonts). Ссылка на [работу](https://ner0nysad.github.io/it-academy-html-css-js/Task9/icon-fonts/icon-fonts.html).
+3. Проект [icon-fonts](./Task9/icon-fonts). Ссылка на [работу](https://ner0ny.github.io/it-academy-html-css-js/Task9/icon-fonts/icon-fonts.html).
 
 &emsp;В ней создаем страницу icon-fonts.html и добавляем в div’ы или li’шки 24 ссылки, которые необходимо стилизовать как представлено на [макете](https://prnt.sc/bFkT92iQevfG), используя доступные стилевые свойства и шрифт Icomoon. 
 &emsp;Сделать страницу адаптивной.
 
 ### Задание № 10
 
-1. Проект [tv-set](./Task10/tv-set). Ссылка на [работу](https://ner0nysad.github.io/it-academy-html-css-js/Task10/tv-set/tv-set.html).
+1. Проект [tv-set](./Task10/tv-set). Ссылка на [работу](https://ner0ny.github.io/it-academy-html-css-js/Task10/tv-set/tv-set.html).
 
 &emsp;Создаем страницу tv-set.html
 &emsp;На этой странице вставляем инлайново svg и используя теги rect и circle создаем телевизор. Заголовок создаем с помощью path, код которого приведен ниже:
@@ -285,48 +285,48 @@
 
 &emsp;Чтобы в итоге на странице мы могли увидеть [следующее](https://prnt.sc/LrWP5i8ptSZU)
 
-2. Проект [kolobok](./Task10/kolobok). Ссылка на [работу](https://ner0nysad.github.io/it-academy-html-css-js/Task10/kolobok/kolobok.html).
+2. Проект [kolobok](./Task10/kolobok). Ссылка на [работу](https://ner0ny.github.io/it-academy-html-css-js/Task10/kolobok/kolobok.html).
 
 &emsp;Создаем страницу kolobok.html
 &emsp;На этой странице размещаем с помощью тега object svg-файл, в котором, используя ellipse, circle и polygon, пытаемся воссоздать [макет](https://prnt.sc/hGtsdmvNSuGu).
 &emsp;ВАЖНО: Для вставки через object в самом svg должен быть указан атрибут xmlns
 
-3. Проект [fight-water-and-fire](./Task10/fight-water-and-fire). Ссылка на [работу](https://ner0nysad.github.io/it-academy-html-css-js/Task10/fight-water-and-fire/fight-water-and-fire.html).
+3. Проект [fight-water-and-fire](./Task10/fight-water-and-fire). Ссылка на [работу](https://ner0ny.github.io/it-academy-html-css-js/Task10/fight-water-and-fire/fight-water-and-fire.html).
 
 &emsp;Создаем страницу fight-water-and-fire.html
 &emsp;И пытаемся получить результат как на [gif-анимации](https://prnt.sc/y0iiNRLi_Gsb). В помощь вам статьи yoksel раз и два.
 
 ### Задание № 11
 
-1. Проект [buttons](./Task11/buttons). Ссылка на [работу](https://ner0nysad.github.io/it-academy-html-css-js/Task11/buttons/buttons.html).
+1. Проект [buttons](./Task11/buttons). Ссылка на [работу](https://ner0ny.github.io/it-academy-html-css-js/Task11/buttons/buttons.html).
 
 &emsp;Создать страницу buttons.html И в ней создать от 5 до 10 разных видов кнопок (можно использовать теги input, button, a и даже span) применяя для этого различные сочетания свойств border, border-radius, text-shadow, box-shadow, background-color, background-gradient и т.д. Не забудьте обработать события :hover(наведение) и :active(нажатие). Будьте готовы ответить на вопросы о том, что делает то или иное свойство у вас на странице. Просто скопировать примеры из интернета - не есть решение, вы должны научиться понимать и применять данные свойства на практике.
 
-2. Проект [animations](./Task11/animations). Ссылка на [работу](https://ner0nysad.github.io/it-academy-html-css-js/Task11/animations/animations.html).
+2. Проект [animations](./Task11/animations). Ссылка на [работу](https://ner0ny.github.io/it-academy-html-css-js/Task11/animations/animations.html).
 
 &emsp;Создать страницу animations.html 
 &emsp;Страница должна содержать контейнер (элемент div), внутри которого расположено не менее 5 элементов различного цвета, формы и т.д. (тоже могут быть div’вами).
 &emsp;Один из элементов должен быть постоянно анимирован (анимировать можно любое стилевое свойство, которое поддерживает анимацию).
 &emsp;При поднесении мыши к любой точке контейнера (даже вне элементов) сразу несколько неподвижных элементов должны анимироваться различными способами (т.е. у одного элемента может меняться расположение, у другого — фоновый цвет, у третьего — толщина рамки и т.д.). Копировать примеры со статей об анимациях с минимальными изменениями – не есть хорошо и будет наказываться.
 
-3. Проект [knowledges](./Task11/knowledges). Ссылка на [работу](https://ner0nysad.github.io/it-academy-html-css-js/Task11/knowledges/knowledges.html).
+3. Проект [knowledges](./Task11/knowledges). Ссылка на [работу](https://ner0ny.github.io/it-academy-html-css-js/Task11/knowledges/knowledges.html).
 
 &emsp;Создать страницу knowledges.html 
 &emsp;Сверстать элементы максимально близко к [макету](https://prnt.sc/KFU0gCMO7nkv). Затем добавить анимацию при открытии\обновлении страницы. Т.е. анимация происходит с небольшой задержкой только при открытии или обновлении страницы, не зациклена.
 
 ### Задание № 12
 
-1. Проект [adaptive-layout-flex](./Task12/adaptive-layout-flex). Ссылка на [работу](https://ner0nysad.github.io/it-academy-html-css-js/Task12/adaptive-layout-flex/adaptive-layout-flex.html).
+1. Проект [adaptive-layout-flex](./Task12/adaptive-layout-flex). Ссылка на [работу](https://ner0ny.github.io/it-academy-html-css-js/Task12/adaptive-layout-flex/adaptive-layout-flex.html).
 
 &emsp;Создаем страницу adaptive-layout-flex.html. Необходимо сверстать макет([1520px](https://prnt.sc/317f-_t-Kish), [768px](https://prnt.sc/XcQRR5arNfex), [480px](https://prnt.sc/YLa8_XXYNJhP)) adaptive-layout.psd с помощью свойств CSS Flexbox (Flexible Box Layout).
 &emsp;Верстка должна быть резиновой и адаптивной, изначально сайдбары занимают 1 часть, а центральный блок с контентом – 4 части экрана. Гиперссылки могут вести куда угодно. Тексты могут быть произвольными, но достаточными, чтобы можно было оценить макет на широком экране. Брейкпоинты для адаптивности — 768px и 480px.
 
-2. Проект [grid-gallery](./Task12/grid-gallery). Ссылка на [работу](https://ner0nysad.github.io/it-academy-html-css-js/Task12/grid-gallery/grid-gallery.html).
+2. Проект [grid-gallery](./Task12/grid-gallery). Ссылка на [работу](https://ner0ny.github.io/it-academy-html-css-js/Task12/grid-gallery/grid-gallery.html).
 
 &emsp;Берем за основу файл grid-gallery.html (можно создать собственный файл со своими картинками или контентом).
 &emsp;Верстка должна быть резиновой и адаптивной, картинки должны иметь разные размеры и пропорции (вертикальные, горизонтальные) и сохранять эти пропорции при сжатии. 
 
-3. Проект [adapt-page-grid](./Task12/adapt-page-grid). Ссылка на [работу](https://ner0nysad.github.io/it-academy-html-css-js/Task12/adapt-page-grid/adapt-page-grid.html).
+3. Проект [adapt-page-grid](./Task12/adapt-page-grid). Ссылка на [работу](https://ner0ny.github.io/it-academy-html-css-js/Task12/adapt-page-grid/adapt-page-grid.html).
 
 &emsp;Создаем страницу adapt-page-grid.html. 
 &emsp;Используя CSS grid Layout необходимо сверстать максимально приближенный вариант к макетам ([макет1](https://prnt.sc/yqueATumLzmw) и [макет2](https://prnt.sc/Wngj7LZAdjGp)). Тексты и изображения можно использовать произвольные. Максимальная ширина контента 980px и центрируется по горизонтали, но при этом фоновый цвет заголовка и футера должны растягиваться на 100% ширины экрана. Блоки с превью новостей должны быть справа и слева выровнены по контенту. Обращаем внимание на текст в футере, а именно на его положение.
@@ -334,7 +334,7 @@
 
 ### Задание № 13
 
-1. Проект [(js-numbers](./Task13/js-numbers). Ссылка на [работу](https://ner0nysad.github.io/it-academy-html-css-js/Task13/js-numbers/js-numbers.html).
+1. Проект [(js-numbers](./Task13/js-numbers). Ссылка на [работу](https://ner0ny.github.io/it-academy-html-css-js/Task13/js-numbers/js-numbers.html).
 
 &emsp;Создаем страницу и пишем javascript-сценарий, который будет выполнять следующие шаги:    
 &emsp;1. с помощью prompt() спросить у пользователя число номер 1 для сравнения, запомнить в переменную;    
@@ -349,13 +349,13 @@
 &emsp;&emsp;3. отрицательное или положительное    
 &emsp;&emsp;4. какое из них больше
 
-2. Проект [js-strings](./Task13/js-strings). Ссылка на [работу](https://ner0nysad.github.io/it-academy-html-css-js/Task13/js-strings/js-strings.html).
+2. Проект [js-strings](./Task13/js-strings). Ссылка на [работу](https://ner0ny.github.io/it-academy-html-css-js/Task13/js-strings/js-strings.html).
 
 &emsp;В нее добавляем страницу или страницы, в которой пишем или подключаем к ней javascript-сценарий, выполняющий следующие задачи:    
 &emsp;1.	Используя цикл while вывести в консоль строку, которая содержит символы “|” (вертикальная полоса) и “_” (нижнее подчеркивание) и выглядит в итоге как треугольник следующего вида:    
 &emsp;2. Используя двойной цикл for сформируйте строку, содержащую решётку 8х8, в которой линии разделяются символами новой строки (\n). На каждой позиции этой решетки должен быть либо белый квадрат (символ “\u2B1C”), либо черный квадрат (символ “\u2B1B”). Вывод строки делать одним единственным вызовом console.log(). В результате должны увидеть шахматную доску следующего вида:
 
-3. Проект [interview](./Task13/interview). Ссылка на [работу](https://ner0nysad.github.io/it-academy-html-css-js/Task13/interview/interview.html).
+3. Проект [interview](./Task13/interview). Ссылка на [работу](https://ner0ny.github.io/it-academy-html-css-js/Task13/interview/interview.html).
 
 &emsp;Создать страницу и написать javascript-сценарий, который спросит у пользователя:    
 &emsp;1. фамилию, имя, отчество РАЗДЕЛЬНО (тремя запросами prompt());    
@@ -373,14 +373,14 @@
 
 ### Задание № 14
 
-1. Проект [in-array](./Task14/in-array). Ссылка на [работу](https://ner0nysad.github.io/it-academy-html-css-js/Task14/in-array/in-array.html).
+1. Проект [in-array](./Task14/in-array). Ссылка на [работу](https://ner0ny.github.io/it-academy-html-css-js/Task14/in-array/in-array.html).
 
 &emsp;Создаем страницу in-array.html, которая будет содержать 3 кнопки «создать массив», «удалить массив», «проверить в массиве». Подключаем javascript-сценарий, который будет выполнять следующие пункты:    
 &emsp;1. По клику на кнопку «создать массив» с помощью цикла и ф-ции prompt() попросить ввести пять фруктов, марок авто или что-нибудь подобное и создать из них массив;    
 &emsp;2. По клику на кнопку «удалить массив» — соответственно очищаем массив;    
 &emsp;3. По клику на кнопку «проверить в массиве» с помощью ф-ции prompt() спросить ввести новый фрукт, марку авто или что вы спрашивали у пользователя до этого, после чего проверить есть ли это значение у вас в массиве. Если есть, то сообщить об этом alert’ом с указанием индекса этого элемента, а если нет, то добавить в конец массива и так же сообщить о добавлении с помощью ф-ции alert(). Продумать вариант, когда в массиве несколько одинаковых значений (тогда нужно вывести все их индексы); 
 
-2. Проект [countries](./Task14/countries). Ссылка на [работу](https://ner0nysad.github.io/it-academy-html-css-js/Task14/countries/countries.html).
+2. Проект [countries](./Task14/countries). Ссылка на [работу](https://ner0ny.github.io/it-academy-html-css-js/Task14/countries/countries.html).
 
 &emsp;Создаем страницу с именем countries.html, добавляем в нее js-файл countries.js (файл с предопределенными функциями для работы со странами и их столицами) и script.js (файл, в котором будете реализовывать свой js-сценарий c логикой и функциями). На самой странице создать и стилизовать кнопки "ввод информации о стране", "получение информации о стране", "перечень всех стран", "удаление информации о стране". Создать методы и функции, которые будут выполнять следующее:    
 &emsp;1. По кнопке "ввод информации о стране" нужно последовательно спросить название страны и её столицы (prompt()) и добавить информацию о стране в хэш.    
@@ -391,13 +391,13 @@
 
 ### Задание № 15
 
-1. Проект [calculator](./Task15/calculator). Ссылка на [работу](https://ner0nysad.github.io/it-academy-html-css-js/Task15/calculator/calculator.html).
+1. Проект [calculator](./Task15/calculator). Ссылка на [работу](https://ner0ny.github.io/it-academy-html-css-js/Task15/calculator/calculator.html).
 
 &emsp;Создаем страницу calculator.html, в которой верстаем конструкцию как на [макете](https://prnt.sc/T8gg66XjooYH) (в качестве кнопок можно использовать input[type=”button”], button или ссылки, а в качестве поля вывода значений калькулятора используем input[type=”text”] с атрибутом readonly). Дизайн калькулятора можно улучшить по желанию.    
 &emsp;Затем создаем и подключаем к ней javascript-файл, в которой будет реализована логика работы калькулятора, позволяя выполнить простейшие математические операции. Кнопка “C” по клику очищает поле ввода/вывода калькулятора. 
 &emsp;Не использовать функцию eval()!!!
 
-2. Проект [create-table](./Task15/create-table). Ссылка на [работу](https://ner0nysad.github.io/it-academy-html-css-js/Task15/create-table/create-table.html).
+2. Проект [create-table](./Task15/create-table). Ссылка на [работу](https://ner0ny.github.io/it-academy-html-css-js/Task15/create-table/create-table.html).
 
 &emsp;Создаем страницу create-table.html и в ней верстаем 3 кнопки (желательно со стилями). Изначально видима только первая кнопка, а две другие скрыты:    
 &emsp;1. первая кнопка “Создать таблицу”. По клику на эту кнопку будут появляться последующие кнопки и должен выводиться запрос на количество ячеек будущей таблицы (prompt()), а сама кнопка становится неактивной, т.е. кликнуть на нее больше нельзя. После ввода пользователем цифры количества ячеек, необходимо:    
